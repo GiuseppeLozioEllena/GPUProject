@@ -10,7 +10,7 @@ using namespace std;
 
 class Configuration{
 public:
-	Configuration();
+	Configuration(string boardConfiguration);
 	~Configuration();
 
 	static const int ROWS = 7;  // width of the board
@@ -20,10 +20,13 @@ public:
 
 	char board[COLUMNS][ROWS];
 
-	void SetupBoard(string boardConfiguration);
+	
 
+	struct lastMove { int row; int column; char player; };
 
 private:
-	char** GenerateConfiguration(char board[ROWS][COLUMNS], bool player);
+	//char** GenerateConfiguration(char board[ROWS][COLUMNS], bool player);
+	void SetupBoard(string boardConfiguration);
+	bool isWinningMove(lastMove move);
 
 };

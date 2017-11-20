@@ -19,8 +19,7 @@ int main(int argc, char** argv) {
 		testFile.close();
 	}*/
 
-	Configuration confg = Configuration();
-	confg.SetupBoard("0--0---0-X000X0X0X0X0X00XX00XXX0000XXXXXXX");
+	Configuration confg = Configuration("0--0---0-X000X0X0X0X0X00XX00XXX0000XXXXXXX");
 
 
 	system("pause");
