@@ -27,4 +27,9 @@
       <Filter>File di intestazione</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="configuration.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+  </ItemGroup>
 </Project>

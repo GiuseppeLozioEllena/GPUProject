@@ -25,6 +25,9 @@
   <ItemGroup>
     <ClInclude Include="Configuration.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="configuration.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{DF056C00-DB53-43C2-8279-73F06C534AD4}</ProjectGuid>
     <RootNamespace>GPUProject</RootNamespace>
