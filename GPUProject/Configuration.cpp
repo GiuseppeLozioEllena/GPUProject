@@ -8,21 +8,32 @@ Configuration::Configuration(string boardConfiguration) {
 
 }
 
+Configuration::Configuration(char** _board, lastMove _move) {
+	_board[_move.row][_move.column] = _move.player;
+
+	board = new char*[ROWS];
+	for (int i = 0; i < ROWS; i++) {
+		board[i] = new char[COLUMNS];
+	}
+
+	for (int i = 0; i < ROWS; i++) {
+		for (int j = 0; j < COLUMNS; j++) {
+			board[i][j] = _board[i][j];
+		}
+
+	}
+}
+
 void Configuration::SetupBoard(string boardConfiguration) {
-	int row = 0;
-	int column = 0;
-	for (int i = 0; i < boardConfiguration.length()/7; i++) {
+	board = new char*[ROWS];
+	for (int i = 0; i < ROWS; i++) {
+		board[i] = new char[COLUMNS];
+	}
+	for (int i = 0; i < (boardConfiguration.length()/7); i++) {
 		int muliply = i * 7;
 		for (int j = 0; j < 7; j++) {
 			board[i%6][j] = boardConfiguration[muliply+j];
 		}
-	}
-
-	for (int i = 0; i < 6; i++) {
-		for (int j = 0; j < 7; j++) {
-			cout << board[i][j];
-		}
-		cout << endl;
 	}
 }
 //questo deve essere il negamax(o minmax)
@@ -114,6 +125,46 @@ bool Configuration::isWinningMove(lastMove move) {
 			counter = 0;
 	}
 	return false;
+}
+//genera le sette mosse successive
+vector<Configuration::lastMove> Configuration::GenerateNextMoves(char player) {
+	
+	vector<Configuration::lastMove> moves=vector<Configuration::lastMove>();
+	for (int j = 0; j < COLUMNS; j++) {
+		for (int i = ROWS -1; i >= 0; i--) {
+			if (board[i][j] == '-') {
+				moves.push_back(Configuration::lastMove(i, j, player));
+				break;
+			}
+		}
+	}
+	return moves;
+}
+
+ostream& operator<<(ostream& os, const Configuration& confg) {
+	
+	for (int i = 0; i < Configuration::ROWS; i++) {
+		for (int j = 0; j < Configuration::COLUMNS; j++) {
+			os << confg.board[i][j];
+		}
+		os << endl;
+	}
+
+	return os;
+}
+
+char** Configuration::getBoard() {
+	char ** _board=new char*[ROWS];
+	for (int i = 0; i < ROWS; i++) {
+		_board[i] = new char[COLUMNS];
+	}
+
+	for (int i = 0; i < ROWS; i++) {
+		for (int j = 0; j < COLUMNS; j++) {
+			_board[i][j] = board[i][j];
+		}
+	}
+	return _board;
 }
 
 Configuration::~Configuration() {

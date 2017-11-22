@@ -6,22 +6,42 @@
 using namespace std;
 
 int main(int argc, char** argv) {
-	
-	/*Solver solver;
-	string line;
 
-	ifstream testFile("haha.txt");
+	/*Configuration confg = Configuration("----x-----x--0--x---x-x-x--0-----------oox");
+	cout << confg;
+	cout << confg.isWinningMove(Configuration::lastMove(3, 1, 'x'))<< endl;*/
+
+	string line;
+	ifstream testFile("configurations.txt");
 	if (testFile.is_open()) {
+		/*getline(testFile, line);
+		Configuration configuration(line);
+		cout << configuration << endl;
+		vector<Configuration::lastMove> moves = configuration.GenerateNextMoves('X');
+		for each (Configuration::lastMove var in moves)
+		{
+
+			Configuration c = Configuration(configuration.getBoard(), var);
+			cout << c << endl;
+			cout << c.isWinningMove(var) << endl;
+		}*/
+		int i = 0;
 		while (getline(testFile, line)) {
-			Configuration configuration;
-			if(configuration)
+			Configuration configuration(line);
+			vector<Configuration::lastMove> moves = configuration.GenerateNextMoves('0');
+			for each (Configuration::lastMove var in moves) {
+				
+				Configuration c = Configuration(configuration.getBoard(), var);
+				cout << c << endl;
+				cout << c.isWinningMove(var) << endl;
+			}
+			cout << "________________________________"<< endl;
+			i++;
+			if (i > 100)
+				break;
 		}
 		testFile.close();
-	}*/
-
-	//Configuration confg = Configuration("-------------0------X------0-----XX----00X");
-	Configuration confg = Configuration("----x-----x--0--x---x-x-x--0-----------oox");
-	cout << confg.isWinningMove(Configuration::lastMove(3, 1, 'x'))<< endl;
+	}
 
 	system("pause");
 	return 0;

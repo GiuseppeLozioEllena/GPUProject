@@ -28,7 +28,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="configuration.txt">
+    <Text Include="configurations.txt">
       <Filter>File di risorse</Filter>
     </Text>
   </ItemGroup>

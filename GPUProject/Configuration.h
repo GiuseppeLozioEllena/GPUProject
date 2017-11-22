@@ -4,36 +4,43 @@
 #include <string>
 #include <cstdint>
 #include <cassert>
+#include <vector>
 
 using namespace std;
 
 
 class Configuration{
+
 public:
-	Configuration(string boardConfiguration);
-	~Configuration();
-
-	static const int ROWS = 7;  // width of the board
-	static const int COLUMNS = 6; // height of the board
-	static const int MIN_SCORE = -(ROWS*COLUMNS) / 2 + 3;
-	static const int MAX_SCORE = (ROWS*COLUMNS + 1) / 2 - 3;
-
-	char board[COLUMNS][ROWS];
-
-	
-
 	struct lastMove {
 		int row; int column; char player;
-		lastMove(int _row,int _column,char _player) {
+		lastMove(int _row, int _column, char _player) {
 			row = _row;
 			column = _column;
 			player = _player;
 		}
-		 };
-	bool isWinningMove(lastMove move);
+	};
 
+	Configuration(string boardConfiguration);
+	Configuration(char** _board, lastMove _move);
+	~Configuration();
+
+	static const int ROWS = 6;  // width of the board
+	static const int COLUMNS = 7; // height of the board
+	static const int MIN_SCORE = -(ROWS*COLUMNS) / 2 + 3;
+	static const int MAX_SCORE = (ROWS*COLUMNS + 1) / 2 - 3;
+
+	
+
+	friend ostream& operator<<(ostream& os, const Configuration& confg);
+	bool isWinningMove(lastMove move);
+	vector<lastMove> GenerateNextMoves(char player);
+
+	char** getBoard();
+	
 private:
 	//char** GenerateConfiguration(char board[ROWS][COLUMNS], bool player);
+	char** board;
 	void SetupBoard(string boardConfiguration);
 	
 
