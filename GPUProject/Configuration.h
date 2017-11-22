@@ -39,7 +39,6 @@ public:
 	char** getBoard();
 	
 private:
-	//char** GenerateConfiguration(char board[ROWS][COLUMNS], bool player);
 	char** board;
 	void SetupBoard(string boardConfiguration);
 	
