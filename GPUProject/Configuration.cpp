@@ -69,36 +69,37 @@ bool Configuration::isWinningMove(lastMove move) {
 		else
 			counter = 0;
 	}
-	//check right diagonal
-	int edge;
-	if (move.row == move.column) {
-		i, j = 0;
-		edge = ROWS;
-	}
-	else if (move.row > move.column) {
-		i = 0;
-		j = move.row - move.column;
-		edge = COLUMNS;
-	}
-	else {
-		i = move.column - move.row;
-		j = 0;
-		edge = ROWS;
-	}
-	if (fmaxf(i, j) < 4) {
-		for (int k= 0; i < edge-(fmaxf(i, j)); i++) {
-			if (board[i+k][j+k] == move.player) {
-				counter++;
-				if (counter >= 4)
-					return true;
-			}
-			else
-				counter = 0;
+	//check left diagonal
+	for (int k= 0; (k+move.row < ROWS && k+move.column<COLUMNS ); k++) {
+		if (board[move.row +k][move.column+k] == move.player) {
+			counter++;
+			if (counter >= 4)
+				return true;
 		}
+		else
+			counter = 0;
+	}
+	for (int k= 0; (k-move.row > 0 && k-move.column>0 ); k++) {
+		if (board[move.row -k][move.column-k] == move.player) {
+			counter++;
+			if (counter >= 4)
+				return true;
+		}
+		else
+			counter = 0;
 	}
 	//check left diagonal
-	for (int i = 0; i < edge; i++) {
-		if (board[i][move.column] == move.player) {
+	for (int k = 0; (k + move.row < ROWS && k - move.column>0); k++) {
+		if (board[move.row + k][move.column - k] == move.player) {
+			counter++;
+			if (counter >= 4)
+				return true;
+		}
+		else
+			counter = 0;
+	}
+	for (int k = 0; (k - move.row > 0 && k + move.column<COLUMNS); k++) {
+		if (board[move.row - k][move.column + k] == move.player) {
 			counter++;
 			if (counter >= 4)
 				return true;
