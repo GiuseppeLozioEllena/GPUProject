@@ -47,9 +47,9 @@ void Configuration::SetupBoard(string boardConfiguration) {
 }*/
 
 bool Configuration::isWinningMove(lastMove move) {
-	int counter,i,j = 0;
+	int counter = 0;
 	//check the column
-	for (j = 0; j < COLUMNS; j++) {
+	for (int j = 0; j < COLUMNS; j++) {
 		if (board[move.row][j] == move.player) {
 			counter++;
 			if (counter >= 4)
@@ -60,7 +60,7 @@ bool Configuration::isWinningMove(lastMove move) {
 	}
 	counter = 0;
 	//check the row
-	for (i = 0; i < ROWS; i++) {
+	for (int i = 0; i < ROWS; i++) {
 		if (board[i][move.column] == move.player) {
 			counter++;
 			if (counter >= 4)
@@ -69,7 +69,8 @@ bool Configuration::isWinningMove(lastMove move) {
 		else
 			counter = 0;
 	}
-	//check left diagonal
+	counter = 0;
+	//check right diagonal
 	for (int k= 0; (k+move.row < ROWS && k+move.column<COLUMNS ); k++) {
 		if (board[move.row +k][move.column+k] == move.player) {
 			counter++;
@@ -79,7 +80,8 @@ bool Configuration::isWinningMove(lastMove move) {
 		else
 			counter = 0;
 	}
-	for (int k= 0; (k-move.row > 0 && k-move.column>0 ); k++) {
+	counter = 0;
+	for (int k= 0; (move.row-k >= 0 && move.column -k >= 0 ); k++) {
 		if (board[move.row -k][move.column-k] == move.player) {
 			counter++;
 			if (counter >= 4)
@@ -89,18 +91,22 @@ bool Configuration::isWinningMove(lastMove move) {
 			counter = 0;
 	}
 	//check left diagonal
-	for (int k = 0; (k + move.row < ROWS && k - move.column>0); k++) {
+	counter = 0;
+	for (int k = 0; (k + move.row < ROWS && move.column-k >= 0); k++) {
 		if (board[move.row + k][move.column - k] == move.player) {
 			counter++;
+			
 			if (counter >= 4)
 				return true;
 		}
 		else
 			counter = 0;
 	}
-	for (int k = 0; (k - move.row > 0 && k + move.column<COLUMNS); k++) {
+	counter = 0;
+	for (int k = 0; (move.row - k >= 0 && k + move.column < COLUMNS); k++) {
 		if (board[move.row - k][move.column + k] == move.player) {
 			counter++;
+			
 			if (counter >= 4)
 				return true;
 		}
