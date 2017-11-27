@@ -21,9 +21,11 @@
   <ItemGroup>
     <ClCompile Include="Configuration.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Solver.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Configuration.h" />
+    <ClInclude Include="Solver.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="configurations.txt" />
