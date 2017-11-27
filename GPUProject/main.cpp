@@ -18,14 +18,14 @@ int main(int argc, char** argv) {
 		int i = 0;
 		while (getline(testFile, line)) {
 				Configuration c = Configuration(line);
-				//cout << c << endl;
-				int solution = solver.MinMax(c, numeric_limits<int>::min(), numeric_limits<int>::max());
+				cout << c << endl;
+				int solution = solver.MinMax(c, 12, numeric_limits<int>::min(), numeric_limits<int>::max());
 				cout << solution << endl;
 				cout << solver.getNodeCount() << endl;
 				solver.ResetNodeCount();
 			cout << "________________________________"<< endl;
 			i++;
-			if (i > 0)
+			if (i > 20)
 				break;
 		}
 		testFile.close();
