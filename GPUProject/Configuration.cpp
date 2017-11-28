@@ -6,7 +6,7 @@ Configuration::Configuration(string boardConfiguration)
 {
 	Configuration::SetupBoard(boardConfiguration);
 
-	mLastmove = lastMove(-1, -1, '0');
+	mLastmove = lastMove(-1, -1, 'X');
 	for each (char c in boardConfiguration)
 	{
 		if (c == 'X' || c == '0')

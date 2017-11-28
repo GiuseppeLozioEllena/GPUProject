@@ -63,7 +63,7 @@ int Solver::MinMax(Configuration configuration,int depth, int alpha, int beta)
 			}
 
 		}
-		return alpha;
+		return score;
 	}
 	if (configuration.mLastmove.player == '0') {
 		int	score = numeric_limits<int>::max();
@@ -86,7 +86,7 @@ int Solver::MinMax(Configuration configuration,int depth, int alpha, int beta)
 			}
 
 		}
-		return alpha;
+		return score;
 	}
 }
 
