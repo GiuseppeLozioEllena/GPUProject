@@ -165,7 +165,8 @@ ostream& operator<<(ostream& os, const Configuration& confg) {
 
 char** Configuration::getBoard() {
 	char ** _board=new char*[ROWS];
-	for (int i = 0; i < ROWS; i++) {
+	for (int i = 0; i < ROWS; i++) 
+	{
 		_board[i] = new char[COLUMNS];
 	}
 
@@ -183,6 +184,16 @@ int Configuration::getNMoves() {
 
 void Configuration::setNMoves(int moves) {
 	NumberOfMoves = moves;
+}
+
+
+void Configuration::deleteBoard()
+{
+	for (int i = 0; i < ROWS; i++) {
+		delete[] board[i];
+	}
+	delete[] board;
+	board = NULL;
 }
 
 Configuration::~Configuration() {

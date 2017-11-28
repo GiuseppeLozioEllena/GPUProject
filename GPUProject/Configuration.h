@@ -35,7 +35,7 @@ public:
 	friend ostream& operator<<(ostream& os, const Configuration& confg);
 	bool isWinningMove(/*lastMove move*/);
 	vector<lastMove> GenerateNextMoves(char player);
-
+	void deleteBoard();
 	char** getBoard();
 	int getNMoves();
 	void setNMoves(int moves);

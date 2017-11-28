@@ -48,13 +48,21 @@ int Solver::MinMax(Configuration configuration,int depth, int alpha, int beta) {
 			if (score > alpha)
 				alpha = score;  // prune the exploration if we find a possible move better than what we were looking for.
 			if (beta <= alpha)
+			{
+				c.deleteBoard();
+				moves.clear();
+				moves.shrink_to_fit();
+				
 				break;
+			}
+
 		}
 		return score;
 	}
 	if (configuration.mLastmove.player == '0') {
 		int	score = numeric_limits<int>::max();
-		for each (lastMove move in moves) {
+		for each (lastMove move in moves) 
+		{
 			Configuration c = Configuration(configuration.getBoard(), move, configuration.getNMoves());
 			if (depth>1)
 				score = _ALGORITHM_::min(score, MinMax(c,depth-1, alpha, beta));
@@ -62,7 +70,13 @@ int Solver::MinMax(Configuration configuration,int depth, int alpha, int beta) {
 			if (score <= beta)
 				beta = score;  // prune the exploration if we find a possible move better than what we were looking for.
 			if (beta <= alpha)
+			{
+				c.deleteBoard();			
+				moves.clear();
+				moves.shrink_to_fit();
+				
 				break;
+			}
 
 		}
 		return score;
