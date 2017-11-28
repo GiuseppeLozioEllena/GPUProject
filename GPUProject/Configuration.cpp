@@ -2,22 +2,25 @@
 
 using namespace std;
 
-Configuration::Configuration(string boardConfiguration) {
+Configuration::Configuration(string boardConfiguration) 
+{
 	Configuration::SetupBoard(boardConfiguration);
 
-	mLastmove = lastMove(-1, -1, 'X');
+	mLastmove = lastMove(-1, -1, '0');
 	for each (char c in boardConfiguration)
 	{
 		if (c == 'X' || c == '0')
 			NumberOfMoves++;
 	}
+	NumberOfStartMoves = NumberOfMoves;
 }
 
-Configuration::Configuration(char** _board, lastMove _move, int numMoves) {
+Configuration::Configuration(char** _board, lastMove _move, int numMoves,int startMoves) {
 	_board[_move.row][_move.column] = _move.player;
 	mLastmove.row = _move.row;
 	mLastmove.column = _move.column;
 	mLastmove.player = _move.player;
+	NumberOfStartMoves = startMoves;
 	NumberOfMoves = numMoves + 1;
 	board = new char*[ROWS];
 	for (int i = 0; i < ROWS; i++) {
@@ -65,7 +68,8 @@ void Configuration::SetupBoard(string boardConfiguration) {
 	return board;
 }*/
 
-bool Configuration::isWinningMove(/*lastMove move*/) {
+bool Configuration::isWinningMove(/*lastMove move*/) 
+{
 	if (mLastmove.row == -1)
 		return false;
 	int counter = 0;
@@ -184,6 +188,11 @@ int Configuration::getNMoves() {
 
 void Configuration::setNMoves(int moves) {
 	NumberOfMoves = moves;
+}
+
+int Configuration::NumberStartMoves()
+{
+	return NumberOfStartMoves;
 }
 
 

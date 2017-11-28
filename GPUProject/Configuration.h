@@ -22,7 +22,7 @@ class Configuration{
 public:
 
 	Configuration(string boardConfiguration);
-	Configuration(char** _board, lastMove _move, int numMoves);
+	Configuration(char** _board, lastMove _move, int numMoves,int startMoves);
 	~Configuration();
 
 	static const int ROWS = 6;  // width of the board
@@ -38,12 +38,15 @@ public:
 	void deleteBoard();
 	char** getBoard();
 	int getNMoves();
+	int NumberStartMoves();
 	void setNMoves(int moves);
 	
 private:
 	char** board;
 
 	int NumberOfMoves;
+
+	int NumberOfStartMoves;
 	
 	void SetupBoard(string boardConfiguration);
 	
