@@ -202,6 +202,36 @@ int Configuration::ValutateMove(lastMove mLastmove,int pawnInARow) {
 		else
 			counter = 0;
 	}
+
+	for (int i = 0; i < ROWS; i++) {
+		counter = 0;
+		for (int j = 0; j < COLUMNS; j++) {
+			if (board[i][j] != mLastmove.player &&board[i][j] != '-') {
+				counter++;
+				if (counter >= pawnInARow) {
+					value -= pawnInARow;
+					break;
+				}
+			}
+			else
+				counter = 0;
+		}
+	}
+
+	for (int j = 0; j < COLUMNS; j++) {
+		counter = 0;
+		for (int i = 0; i < ROWS; i++) {
+			if (board[i][j] != mLastmove.player &&board[i][j] != '-') {
+				counter++;
+				if (counter >= pawnInARow) {
+					value -= pawnInARow;
+					break;
+				}
+			}
+			else
+				counter = 0;
+		}
+	}
 	return value;
 }
 
