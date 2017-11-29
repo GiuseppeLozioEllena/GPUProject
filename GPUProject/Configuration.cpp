@@ -70,6 +70,7 @@ void Configuration::SetupBoard(string boardConfiguration) {
 
 bool Configuration::isWinningMove(/*lastMove move*/) 
 {
+	//cout << mLastmove.row << "   " << mLastmove.column << endl;
 	if (mLastmove.row == -1)
 		return false;
 	int counter = 0;
@@ -152,6 +153,30 @@ vector<lastMove> Configuration::GenerateNextMoves(char player) {
 			}
 		}
 	}
+	return SortNextMoves(moves);
+
+}
+
+vector<lastMove> Configuration::SortNextMoves(vector<lastMove> moves) {
+	bool bDone = false;
+
+	while (!bDone)
+	{
+		bDone = true;
+		for (int i = 0; i < moves.size()-1; ++i)
+		{
+			if (moves[i].column < moves[i + 1].column) // compare the current element with the following one
+			{
+				// They are in the wrong order, swap them
+				lastMove tmp = moves[i];
+				moves[i] = moves[i + 1];
+				moves[i + 1] = tmp;
+
+				bDone = false;
+
+			}
+		}
+	}
 	return moves;
 }
 
@@ -202,7 +227,6 @@ void Configuration::deleteBoard()
 		delete[] board[i];
 	}
 	delete[] board;
-	board = NULL;
 }
 
 Configuration::~Configuration() {

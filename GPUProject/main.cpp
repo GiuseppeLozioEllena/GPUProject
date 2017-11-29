@@ -20,14 +20,15 @@ int main(int argc, char** argv) {
 		{
 				Configuration c = Configuration(line);
 				cout << c;
-				int solution = solver.MinMax(c, 5, numeric_limits<int>::min(), numeric_limits<int>::max());
+				int solution = solver.MinMax(c, 10, numeric_limits<int>::min(), numeric_limits<int>::max());
 				cout << solution << endl;
 				cout << solver.getNodeCount() << endl;
 				solver.ResetNodeCount();
 			cout << "________________________________"<< endl;
 			i++;
-			if (i > 10)
+			if (i >50)
 				break;
+			c.deleteBoard();
 		}
 		testFile.close();
 	}

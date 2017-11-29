@@ -50,5 +50,6 @@ private:
 	
 	void SetupBoard(string boardConfiguration);
 	
+	vector<lastMove> Configuration::SortNextMoves(vector<lastMove> moves);
 
 };

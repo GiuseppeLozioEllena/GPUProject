@@ -11,11 +11,12 @@ int Solver::MinMax(Configuration configuration,int depth, int alpha, int beta)
 {
 	
 	nodeCount++;
-	if (configuration.isWinningMove() && configuration.mLastmove.player == '0')
+	bool isWinningMove = configuration.isWinningMove();
+	if (isWinningMove && configuration.mLastmove.player == '0')
 		//return -(Configuration::ROWS*Configuration::COLUMNS - configuration.getNMoves()) / 2;
 		return -(configuration.getNMoves() - configuration.NumberStartMoves());
 
-	if (configuration.isWinningMove() && configuration.mLastmove.player == 'X')
+	if (isWinningMove && configuration.mLastmove.player == 'X')
 		return (configuration.getNMoves() - configuration.NumberStartMoves());
 	
 	if (configuration.getNMoves() > Configuration::ROWS*Configuration::COLUMNS-1) // check for draw game
@@ -41,36 +42,31 @@ int Solver::MinMax(Configuration configuration,int depth, int alpha, int beta)
 
 	char nextPlayer = configuration.mLastmove.player == 'X' ? '0' : 'X';
 	vector<lastMove> moves = configuration.GenerateNextMoves(nextPlayer);
-
-	if (nodeCount==1 || configuration.mLastmove.player=='X') {
+	if (nextPlayer=='X') {
 		int	score = numeric_limits<int>::min();
 		for each (lastMove move in moves) {
 			Configuration c = Configuration(configuration.getBoard(), move, configuration.getNMoves(),configuration.NumberStartMoves());
-			if (depth > 1)
+			if (depth > 0)
 				score = _ALGORITHM_::max(score, MinMax(c, depth - 1, alpha, beta));
 
 			if (score > alpha)
 				alpha = score;  // prune the exploration if we find a possible move better than what we were looking for.
-			if (beta <= alpha)
-			{
-				
+			if (beta <= alpha) {
 				c.deleteBoard();
 				moves.clear();
 				moves.shrink_to_fit();
-				
-				
-				break;
+				return score;
 			}
-
+			c.deleteBoard();
 		}
 		return score;
 	}
-	if (configuration.mLastmove.player == '0') {
+	if (nextPlayer == '0') {
 		int	score = numeric_limits<int>::max();
 		for each (lastMove move in moves) 
 		{
 			Configuration c = Configuration(configuration.getBoard(), move, configuration.getNMoves(), configuration.NumberStartMoves());
-			if (depth>1)
+			if (depth>0)
 				score = _ALGORITHM_::min(score, MinMax(c,depth-1, alpha, beta));
 				
 			if (score <= beta)
@@ -82,9 +78,9 @@ int Solver::MinMax(Configuration configuration,int depth, int alpha, int beta)
 				moves.clear();
 				moves.shrink_to_fit();
 				
-				break;
+				return score;
 			}
-
+			c.deleteBoard();
 		}
 		return score;
 	}
