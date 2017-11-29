@@ -6,7 +6,7 @@ Configuration::Configuration(string boardConfiguration)
 {
 	Configuration::SetupBoard(boardConfiguration);
 
-	mLastmove = lastMove(-1, -1, 'X');
+	mLastmove = lastMove(-1, -1, '0',0);
 	for each (char c in boardConfiguration)
 	{
 		if (c == 'X' || c == '0')
@@ -47,29 +47,8 @@ void Configuration::SetupBoard(string boardConfiguration) {
 		}
 	}
 }
-//questo deve essere il negamax(o minmax)
-/*char** Configuration::GenerateConfiguration(char board[ROWS][COLUMNS], bool player) {
 
-	for (int i = 0; i <ROWS; i++) {
-		if (board[i][COLUMNS - 1] == '-') {
-
-			for (int j = 0; j < COLUMNS; j++) {
-				if (board[j][i] == '-') {
-					if (player)
-						board[i][j] = 'x';
-					else
-						board[i][j] = 'o';
-					//minmax(board,i,j,move)
-					break;
-				}
-			}
-		}
-	}
-	return board;
-}*/
-
-bool Configuration::isWinningMove(/*lastMove move*/) 
-{
+bool Configuration::isWinningMove() {
 	//cout << mLastmove.row << "   " << mLastmove.column << endl;
 	if (mLastmove.row == -1)
 		return false;
@@ -141,6 +120,91 @@ bool Configuration::isWinningMove(/*lastMove move*/)
 	}
 	return false;
 }
+
+int Configuration::ValutateMove(lastMove mLastmove,int pawnInARow) {
+	int value = 0;
+	if (mLastmove.row == -1)
+		return value;
+
+	int counter = 0;
+	//check the column
+	for (int j = (mLastmove.column - pawnInARow > 0 ? mLastmove.column - pawnInARow : 0); j < (mLastmove.column + pawnInARow < COLUMNS ? mLastmove.column + pawnInARow : COLUMNS); j++) {
+		if (board[mLastmove.row][j] == mLastmove.player) {
+			counter++;
+			if (counter >= pawnInARow) {
+				value += pawnInARow;
+				break;
+			}
+		}
+		else
+			counter = 0;
+	}
+	counter = 0;
+	//check the row
+	for (int i = (mLastmove.row - pawnInARow > 0 ? mLastmove.row - pawnInARow : 0); i < (mLastmove.row + pawnInARow < ROWS ? mLastmove.row + pawnInARow : ROWS); i++) {
+		if (board[i][mLastmove.column] == mLastmove.player) {
+			counter++;
+			if (counter >= pawnInARow) {
+				value += pawnInARow;
+				break;
+			}
+		}
+		else
+			counter = 0;
+	}
+	counter = 0;
+	//check right diagonal
+	for (int k = 0; (k + mLastmove.row < ROWS && k + mLastmove.column<COLUMNS); k++) {
+		if (board[mLastmove.row + k][mLastmove.column + k] == mLastmove.player) {
+			counter++;
+			if (counter >= pawnInARow) {
+				value += pawnInARow;
+				break;
+			}
+		}
+		else
+			counter = 0;
+	}
+	counter = 0;
+	for (int k = 0; (mLastmove.row - k >= 0 && mLastmove.column - k >= 0); k++) {
+		if (board[mLastmove.row - k][mLastmove.column - k] == mLastmove.player) {
+			counter++;
+			if (counter >= pawnInARow) {
+				value += pawnInARow;
+				break;
+			}
+		}
+		else
+			counter = 0;
+	}
+	//check left diagonal
+	counter = 0;
+	for (int k = 0; (k + mLastmove.row < ROWS && mLastmove.column - k >= 0); k++) {
+		if (board[mLastmove.row + k][mLastmove.column - k] == mLastmove.player) {
+			counter++;
+			if (counter >= pawnInARow) {
+				value += pawnInARow;
+				break;
+			}
+		}
+		else
+			counter = 0;
+	}
+	counter = 0;
+	for (int k = 0; (mLastmove.row - k >= 0 && k + mLastmove.column < COLUMNS); k++) {
+		if (board[mLastmove.row - k][mLastmove.column + k] == mLastmove.player) {
+			counter++;
+			if (counter >= pawnInARow) {
+				value += pawnInARow;
+				break;
+			}
+		}
+		else
+			counter = 0;
+	}
+	return value;
+}
+
 //genera le sette mosse successive
 vector<lastMove> Configuration::GenerateNextMoves(char player) {
 	
@@ -148,7 +212,7 @@ vector<lastMove> Configuration::GenerateNextMoves(char player) {
 	for (int j = 0; j < COLUMNS; j++) {
 		for (int i = ROWS -1; i >= 0; i--) {
 			if (board[i][j] == '-') {
-				moves.push_back(lastMove(i, j, player));
+				moves.push_back(lastMove(i, j, player,0));
 				break;
 			}
 		}
@@ -159,21 +223,20 @@ vector<lastMove> Configuration::GenerateNextMoves(char player) {
 
 vector<lastMove> Configuration::SortNextMoves(vector<lastMove> moves) {
 	bool bDone = false;
+	for (int i = 0; i < moves.size(); ++i) {
+		board[moves[i].row][moves[i].column] = moves[i].player;
+		moves[i].value = ValutateMove(moves[i],2) + ValutateMove(moves[i], 3);
+		board[moves[i].row][moves[i].column] = '-';
+	}
 
-	while (!bDone)
-	{
+	while (!bDone) {
 		bDone = true;
-		for (int i = 0; i < moves.size()-1; ++i)
-		{
-			if (moves[i].column < moves[i + 1].column) // compare the current element with the following one
-			{
-				// They are in the wrong order, swap them
+		for (int i = 0; i < moves.size()-1; ++i) {
+			if (moves[i].value < moves[i + 1].value) {
 				lastMove tmp = moves[i];
 				moves[i] = moves[i + 1];
 				moves[i + 1] = tmp;
-
 				bDone = false;
-
 			}
 		}
 	}

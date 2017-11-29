@@ -43,7 +43,7 @@ int Solver::MinMax(Configuration configuration,int depth, int alpha, int beta)
 	char nextPlayer = configuration.mLastmove.player == 'X' ? '0' : 'X';
 	vector<lastMove> moves = configuration.GenerateNextMoves(nextPlayer);
 	if (nextPlayer=='X') {
-		int	score = numeric_limits<int>::min();
+		int	score = alpha;//numeric_limits<int>::min();
 		for each (lastMove move in moves) {
 			Configuration c = Configuration(configuration.getBoard(), move, configuration.getNMoves(),configuration.NumberStartMoves());
 			if (depth > 0)
@@ -62,7 +62,7 @@ int Solver::MinMax(Configuration configuration,int depth, int alpha, int beta)
 		return score;
 	}
 	if (nextPlayer == '0') {
-		int	score = numeric_limits<int>::max();
+		int	score = beta;//numeric_limits<int>::max();
 		for each (lastMove move in moves) 
 		{
 			Configuration c = Configuration(configuration.getBoard(), move, configuration.getNMoves(), configuration.NumberStartMoves());
