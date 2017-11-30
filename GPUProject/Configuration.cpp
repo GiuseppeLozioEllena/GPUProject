@@ -298,9 +298,9 @@ ostream& operator<<(ostream& os, const Configuration& confg) {
 
 char** Configuration::getBoard() {
 	char ** _board = new char*[ROWS];
-	for (int i = 0; i < ROWS; i++)
-	{
-		_board[i] = new char[COLUMNS];
+	_board[0] = new char[ROWS*COLUMNS];
+	for (int i = 1; i < ROWS; ++i) {
+		_board[i] = _board[i - 1] + COLUMNS;
 	}
 
 	for (int i = 0; i < ROWS; i++) {
@@ -336,7 +336,9 @@ void Configuration::deleteBoard()
 		delete board[i];
 	}
 	delete board[0];*/
-	delete board;
+	
+
+	delete[] board;
 }
 
 Configuration::~Configuration() {
