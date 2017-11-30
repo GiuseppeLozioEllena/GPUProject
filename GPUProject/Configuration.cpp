@@ -2,11 +2,11 @@
 
 using namespace std;
 
-Configuration::Configuration(string boardConfiguration) 
+Configuration::Configuration(string boardConfiguration)
 {
 	Configuration::SetupBoard(boardConfiguration);
 
-	mLastmove = lastMove(-1, -1, '0',0);
+	mLastmove = lastMove(-1, -1, '0', 0);
 	for each (char c in boardConfiguration)
 	{
 		if (c == 'X' || c == '0')
@@ -15,7 +15,7 @@ Configuration::Configuration(string boardConfiguration)
 	NumberOfStartMoves = NumberOfMoves;
 }
 
-Configuration::Configuration(char** _board, lastMove _move, int numMoves,int startMoves) {
+Configuration::Configuration(char** _board, lastMove _move, int numMoves, int startMoves) {
 	_board[_move.row][_move.column] = _move.player;
 	mLastmove.row = _move.row;
 	mLastmove.column = _move.column;
@@ -37,13 +37,14 @@ Configuration::Configuration(char** _board, lastMove _move, int numMoves,int sta
 
 void Configuration::SetupBoard(string boardConfiguration) {
 	board = new char*[ROWS];
-	for (int i = 0; i < ROWS; i++) {
-		board[i] = new char[COLUMNS];
+	board[0] = new char[ROWS*COLUMNS];
+	for (int i = 1; i < ROWS; ++i) {
+		board[i] =board[i-1]+COLUMNS;
 	}
-	for (int i = 0; i < (boardConfiguration.length()/7); i++) {
+	for (int i = 0; i < (boardConfiguration.length() / 7); i++) {
 		int muliply = i * 7;
 		for (int j = 0; j < 7; j++) {
-			board[i%6][j] = boardConfiguration[muliply+j];
+			board[i % 6][j] = boardConfiguration[muliply + j];
 		}
 	}
 }
@@ -76,8 +77,8 @@ bool Configuration::isWinningMove() {
 	}
 	counter = 0;
 	//check right diagonal
-	for (int k= 0; (k+ mLastmove.row < ROWS && k+ mLastmove.column<COLUMNS ); k++) {
-		if (board[mLastmove.row +k][mLastmove.column+k] == mLastmove.player) {
+	for (int k = 0; (k + mLastmove.row < ROWS && k + mLastmove.column < COLUMNS); k++) {
+		if (board[mLastmove.row + k][mLastmove.column + k] == mLastmove.player) {
 			counter++;
 			if (counter >= 4)
 				return true;
@@ -86,8 +87,8 @@ bool Configuration::isWinningMove() {
 			counter = 0;
 	}
 	counter = 0;
-	for (int k= 0; (mLastmove.row-k >= 0 && mLastmove.column -k >= 0 ); k++) {
-		if (board[mLastmove.row -k][mLastmove.column-k] == mLastmove.player) {
+	for (int k = 0; (mLastmove.row - k >= 0 && mLastmove.column - k >= 0); k++) {
+		if (board[mLastmove.row - k][mLastmove.column - k] == mLastmove.player) {
 			counter++;
 			if (counter >= 4)
 				return true;
@@ -97,10 +98,10 @@ bool Configuration::isWinningMove() {
 	}
 	//check left diagonal
 	counter = 0;
-	for (int k = 0; (k + mLastmove.row < ROWS && mLastmove.column-k >= 0); k++) {
+	for (int k = 0; (k + mLastmove.row < ROWS && mLastmove.column - k >= 0); k++) {
 		if (board[mLastmove.row + k][mLastmove.column - k] == mLastmove.player) {
 			counter++;
-			
+
 			if (counter >= 4)
 				return true;
 		}
@@ -111,7 +112,7 @@ bool Configuration::isWinningMove() {
 	for (int k = 0; (mLastmove.row - k >= 0 && k + mLastmove.column < COLUMNS); k++) {
 		if (board[mLastmove.row - k][mLastmove.column + k] == mLastmove.player) {
 			counter++;
-			
+
 			if (counter >= 4)
 				return true;
 		}
@@ -121,7 +122,7 @@ bool Configuration::isWinningMove() {
 	return false;
 }
 
-int Configuration::ValutateMove(lastMove mLastmove,int pawnInARow) {
+int Configuration::ValutateMove(lastMove mLastmove, int pawnInARow) {
 	int value = 0;
 	if (mLastmove.row == -1)
 		return value;
@@ -154,7 +155,7 @@ int Configuration::ValutateMove(lastMove mLastmove,int pawnInARow) {
 	}
 	counter = 0;
 	//check right diagonal
-	for (int k = 0; (k + mLastmove.row < ROWS && k + mLastmove.column<COLUMNS); k++) {
+	for (int k = 0; (k + mLastmove.row < ROWS && k + mLastmove.column < COLUMNS); k++) {
 		if (board[mLastmove.row + k][mLastmove.column + k] == mLastmove.player) {
 			counter++;
 			if (counter >= pawnInARow) {
@@ -208,20 +209,10 @@ int Configuration::ValutateMove(lastMove mLastmove,int pawnInARow) {
 		for (int j = 0; j < COLUMNS; j++) {
 			if (board[i][j] != mLastmove.player &&board[i][j] != '-') {
 				counter++;
-				if (counter >= pawnInARow)
-				{
-					if (j - counter >= 1)
-					{
-						if (board[i][j-counter] == '-')
+				if (counter >= pawnInARow) {
+					if (j - counter >= 1) {
+						if (board[i][j - counter] == '-')
 							value -= pawnInARow;
-
-					}
-
-					if (j  <COLUMNS - 1)
-					{
-						if (board[i][j+1] == '-')
-							value -= pawnInARow;
-
 					}
 					break;
 				}
@@ -236,22 +227,15 @@ int Configuration::ValutateMove(lastMove mLastmove,int pawnInARow) {
 		for (int i = 0; i < ROWS; i++) {
 			if (board[i][j] != mLastmove.player &&board[i][j] != '-') {
 				counter++;
-				if (counter >= pawnInARow) 
-				{
-					if (i - counter >= 1)
-					{
-						if(board[i - counter][j] == '-')
+				if (counter >= pawnInARow) {
+					if (i - counter >= 1) {
+						if (board[i - counter][j] == '-')
 							value -= pawnInARow;
-						
 					}
-
-					if (i  <ROWS-1)
-					{
-						if (board[i+1][j] == '-')
+					if (i < ROWS - 1) {
+						if (board[i + 1][j] == '-')
 							value -= pawnInARow;
-
 					}
-
 					break;
 				}
 			}
@@ -264,12 +248,12 @@ int Configuration::ValutateMove(lastMove mLastmove,int pawnInARow) {
 
 //genera le sette mosse successive
 vector<lastMove> Configuration::GenerateNextMoves(char player) {
-	
-	vector<lastMove> moves=vector<lastMove>();
+
+	vector<lastMove> moves = vector<lastMove>();
 	for (int j = 0; j < COLUMNS; j++) {
-		for (int i = ROWS -1; i >= 0; i--) {
+		for (int i = ROWS - 1; i >= 0; i--) {
 			if (board[i][j] == '-') {
-				moves.push_back(lastMove(i, j, player,0));
+				moves.push_back(lastMove(i, j, player, 0));
 				break;
 			}
 		}
@@ -282,13 +266,13 @@ vector<lastMove> Configuration::SortNextMoves(vector<lastMove> moves) {
 	bool bDone = false;
 	for (int i = 0; i < moves.size(); ++i) {
 		board[moves[i].row][moves[i].column] = moves[i].player;
-		moves[i].value = ValutateMove(moves[i],2) + ValutateMove(moves[i], 3);
+		moves[i].value = ValutateMove(moves[i], 2) + ValutateMove(moves[i], 3);
 		board[moves[i].row][moves[i].column] = '-';
 	}
 
 	while (!bDone) {
 		bDone = true;
-		for (int i = 0; i < moves.size()-1; ++i) {
+		for (int i = 0; i < moves.size() - 1; ++i) {
 			if (moves[i].value < moves[i + 1].value) {
 				lastMove tmp = moves[i];
 				moves[i] = moves[i + 1];
@@ -301,7 +285,7 @@ vector<lastMove> Configuration::SortNextMoves(vector<lastMove> moves) {
 }
 
 ostream& operator<<(ostream& os, const Configuration& confg) {
-	
+
 	for (int i = 0; i < Configuration::ROWS; i++) {
 		for (int j = 0; j < Configuration::COLUMNS; j++) {
 			os << confg.board[i][j];
@@ -313,8 +297,8 @@ ostream& operator<<(ostream& os, const Configuration& confg) {
 }
 
 char** Configuration::getBoard() {
-	char ** _board=new char*[ROWS];
-	for (int i = 0; i < ROWS; i++) 
+	char ** _board = new char*[ROWS];
+	for (int i = 0; i < ROWS; i++)
 	{
 		_board[i] = new char[COLUMNS];
 	}
@@ -343,10 +327,16 @@ int Configuration::NumberStartMoves()
 
 void Configuration::deleteBoard()
 {
-	for (int i = 0; i < ROWS; i++) {
+	/*for (int i = 0; i < ROWS; i++) {
 		delete[] board[i];
 	}
-	delete[] board;
+	delete[] board;*/
+
+	/*for (int i = 1; i < ROWS; ++i) {
+		delete board[i];
+	}
+	delete board[0];*/
+	delete board;
 }
 
 Configuration::~Configuration() {
