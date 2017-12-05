@@ -247,7 +247,6 @@ vector<lastMove> Configuration::GenerateNextMoves(char player) {
 		}
 	}
 	return SortNextMoves(moves);
-
 }
 
 vector<lastMove> Configuration::SortNextMoves(vector<lastMove> moves) {
@@ -274,12 +273,13 @@ vector<lastMove> Configuration::SortNextMoves(vector<lastMove> moves) {
 
 ostream& operator<<(ostream& os, const Configuration& confg) {
 
-	for (int i = 0; i < Configuration::ROWS*Configuration::COLUMNS; i++) {
-		os << confg.board[i];
-		if(i%7==0 && i!=0)
-			os << endl;
+	for (int i = 0; i < Configuration::ROWS; i++) {
+		for (int j = 0; j < Configuration::COLUMNS; j++) {
+			int idx = i*Configuration::COLUMNS + j;
+			os << confg.board[idx];
+		}
+		os << endl;
 	}
-	os << endl;
 	return os;
 }
 
@@ -308,7 +308,6 @@ int Configuration::NumberStartMoves()
 
 void Configuration::deleteBoard()
 {
-
 	delete[] board;
 }
 
