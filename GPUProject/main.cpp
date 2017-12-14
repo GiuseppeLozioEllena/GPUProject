@@ -25,7 +25,7 @@ int main(int argc, char** argv) {
 			start = clock();
 			Configuration c = Configuration(line);
 			writeInFile << c;
-			int solution = solver.MinMax(c, 10, numeric_limits<int>::min(), numeric_limits<int>::max());
+			int solution = solver.Pvs(c, 10, numeric_limits<int>::min(), numeric_limits<int>::max());
 			duration = (clock() - start) / (double)CLOCKS_PER_SEC;
 			writeInFile << "Configuration Number: " << i << endl;
 			writeInFile << "Duration: " << duration << endl;
@@ -34,7 +34,7 @@ int main(int argc, char** argv) {
 			writeInFile << "________________________________" << endl;
 			solver.ResetNodeCount();
 			i++;
-			if (i >250)
+			if (i >10)
 				break;
 			c.deleteBoard();
 		}

@@ -51,6 +51,7 @@ private:
 	
 	void SetupBoard(string boardConfiguration);
 	int ValutateMove(lastMove mLastmove ,int pawnInARow);
+	int ValutateEnemyPositions(lastMove mLastmove, int pawnInARow);
 	vector<lastMove> Configuration::SortNextMoves(vector<lastMove> moves);
 
 };

@@ -9,7 +9,7 @@ public:
 	Solver();
 	~Solver();
 
-	int MinMax(Configuration board, int depth, int alpha, int beta);
+	int Pvs(Configuration board, int depth, int alpha, int beta);
 	unsigned long long getNodeCount();
 	void ResetNodeCount();
 
