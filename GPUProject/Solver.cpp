@@ -30,7 +30,7 @@ int Solver::Pvs(Configuration configuration,int depth, int alpha, int beta)
 		int	score;
 		Configuration c = Configuration(configuration.getBoard(), moves[i], configuration.getNMoves(),configuration.NumberStartMoves());
 		if (i == 0) {
-			//if(depth==10)
+			//if(depth==7)
 			//	cout << c << endl;
 			score = -Pvs(c, depth - 1, -beta, -alpha);
 		}
@@ -40,9 +40,9 @@ int Solver::Pvs(Configuration configuration,int depth, int alpha, int beta)
 			if (alpha < score < beta)
 				score = -Pvs(c, depth - 1, -beta, -score);
 		}
-		/*if (depth == 9) {
+		/*if (depth == 7 && i==0) {
 			cout << c << endl;
-			cout << score << endl;
+			cout <<  moves[i].value << endl;
 		}*/
 		alpha = max(alpha, score);
 		if (alpha >= beta) {
@@ -53,9 +53,7 @@ int Solver::Pvs(Configuration configuration,int depth, int alpha, int beta)
 	}
 	moves.clear();
 	moves.shrink_to_fit();
-	/*if (depth == 9) {
-		cout << alpha << endl;
-	}*/
+
 	return alpha;
 	
 }

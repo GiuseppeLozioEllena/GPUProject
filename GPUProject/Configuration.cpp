@@ -64,47 +64,42 @@ bool Configuration::isWinningMove() {
 	}
 	counter = 0;
 	//check right diagonal
-	for (int k = 0; (k + mLastmove.row < ROWS && k + mLastmove.column < COLUMNS); k++) {
-		if (board[(mLastmove.row + k)*COLUMNS + (mLastmove.column + k)] == mLastmove.player) {
-			counter++;
-			if (counter >= 4)
-				return true;
-		}
-		else
-			counter = 0;
+	int ki = mLastmove.row;
+	int ky = mLastmove.column;
+	for (; (ki > 0 && ky > 0); ki--, ky--) {
 	}
-	counter = 0;
-	for (int k = 0; (mLastmove.row - k >= 0 && mLastmove.column - k >= 0); k++) {
-		if (board[(mLastmove.row - k)*COLUMNS + (mLastmove.column - k)] == mLastmove.player) {
-			counter++;
-			if (counter >= 4)
-				return true;
+	if (!(ki >= 3 || ky >= 3)) {
+		for (int k = 0; (ki + k < ROWS && ky + k < COLUMNS); k++) {
+			if (board[(ki + k)*COLUMNS + (ky + k)] == mLastmove.player) {
+				counter++;
+				if (counter >= 4) {
+					return true;
+				}
+			}
+			else {
+				counter = 0;
+			}
 		}
-		else
-			counter = 0;
 	}
+	
 	//check left diagonal
 	counter = 0;
-	for (int k = 0; (k + mLastmove.row < ROWS && mLastmove.column - k >= 0); k++) {
-		if (board[(mLastmove.row + k)*COLUMNS + (mLastmove.column - k)] == mLastmove.player) {
-			counter++;
-
-			if (counter >= 4)
-				return true;
-		}
-		else
-			counter = 0;
+	ki = mLastmove.row;
+	ky = mLastmove.column;
+	for (; (ki < ROWS-1 && ky > 0); ki++, ky--) {
 	}
-	counter = 0;
-	for (int k = 0; (mLastmove.row - k >= 0 && k + mLastmove.column < COLUMNS); k++) {
-		if (board[(mLastmove.row - k)*COLUMNS + (mLastmove.column + k)] == mLastmove.player) {
-			counter++;
-
-			if (counter >= 4)
-				return true;
+	if (!(ki < 3 || ky > 3)) {
+		for (int k = 0; (ki - k >= 0 && ky + k < COLUMNS); k++) {
+			if (board[(ki - k)*COLUMNS + (ky + k)] == mLastmove.player) {
+				counter++;
+				if (counter >= 4) {
+					return true;
+				}
+			}
+			else {
+				counter = 0;
+			}
 		}
-		else
-			counter = 0;
 	}
 	return false;
 }
@@ -126,7 +121,7 @@ int Configuration::ValutateMove(lastMove mLastmove, int pawnInARow) {
 			}
 			if (counter >= pawnInARow && yourMove) {
 				if (counter == 4) {
-					_value = counter+1;
+					_value = counter+5;
 					break;
 				}
 				_value = counter;
@@ -147,7 +142,7 @@ int Configuration::ValutateMove(lastMove mLastmove, int pawnInARow) {
 
 			if (counter >= pawnInARow) {
 				if (counter == 4) {
-					_value = counter + 1;
+					_value = counter + 5;
 					break;
 				}
 				_value = counter;
@@ -159,16 +154,16 @@ int Configuration::ValutateMove(lastMove mLastmove, int pawnInARow) {
 	
 	value += _value;
 	_value = 0;
-	value += (mLastmove.row<4)?mLastmove.row:3;
+	//value += (mLastmove.row<4)?mLastmove.row:3;
 	counter = 0;
 	yourMove = false;
 	//check right diagonal
 	int ki = mLastmove.row;
 	int ky = mLastmove.column;
-	for (; (ki >= 0 && ky >= 0); ki--,ky--) {
+	for (; (ki > 0 && ky > 0); ki--,ky--) {
 	}
 	if (!(ki >= 3 || ky >= 3)) {
-		for (int k = 0; (k + mLastmove.row < ROWS && k + mLastmove.column < COLUMNS); k++) {
+		for (int k = 0; (ki + k < ROWS && ky + k < COLUMNS); k++) {
 			if (board[(ki + k)*COLUMNS + (ky + k)] == mLastmove.player) {
 				counter++;
 				if ((ki + k) == mLastmove.row && (ky + k) == mLastmove.column) {
@@ -176,7 +171,7 @@ int Configuration::ValutateMove(lastMove mLastmove, int pawnInARow) {
 				}
 				if (counter >= pawnInARow && yourMove) {
 					if (counter == 4) {
-						_value = counter + 1;
+						_value = counter + 5;
 						break;
 					}
 					_value = counter;
@@ -195,10 +190,10 @@ int Configuration::ValutateMove(lastMove mLastmove, int pawnInARow) {
 	//check left diagonal
 	ki = mLastmove.row;
 	ky = mLastmove.column;
-	for (; (ki < ROWS && ky >= 0); ki++, ky--) {
+	for (; (ki < ROWS-1 && ky > 0); ki++, ky--) {
 	}
 	if (!(ki < 3 || ky > 3)) {
-		for (int k = 0; (mLastmove.row - k >= 0 && k + mLastmove.column < COLUMNS); k++) {
+		for (int k = 0; (ki - k >= 0 && ky + k < COLUMNS); k++) {
 			if (board[(ki - k)*COLUMNS + (ky + k)] == mLastmove.player) {
 				counter++;
 				if ((ki - k) == mLastmove.row && (ky + k) == mLastmove.column) {
@@ -206,7 +201,7 @@ int Configuration::ValutateMove(lastMove mLastmove, int pawnInARow) {
 				}
 				if (counter >= pawnInARow && yourMove) {
 					if (counter == 4) {
-						_value = counter + 1;
+						_value = counter + 5;
 						break;
 					}
 					_value = counter;
@@ -238,8 +233,7 @@ int Configuration::ValutateEnemyPositions(lastMove mLastmove, int pawnInARow) {
 				blocked = true;
 			if (counter >= pawnInARow) {
 				if (blocked) {
-					//printf("%d, %d\n",mLastmove.row,mLastmove.column);
-					value += pawnInARow;
+					value += pawnInARow+3;
 					break;
 				}
 			}
@@ -258,7 +252,7 @@ int Configuration::ValutateEnemyPositions(lastMove mLastmove, int pawnInARow) {
 				blocked = true;
 			if (counter >= pawnInARow) {
 				if (blocked) {
-					value += pawnInARow;
+					value += pawnInARow+3;
 					break;
 				}
 			}
@@ -272,17 +266,17 @@ int Configuration::ValutateEnemyPositions(lastMove mLastmove, int pawnInARow) {
 	int ky = mLastmove.column;
 	counter = 0;
 	blocked = false;
-	for (; (ki >= 0 && ky >= 0); ki--, ky--) {
+	for (; (ki > 0 && ky > 0); ki--, ky--) {
 	}
 	if (!(ki >= 3 || ky >= 3)) {
-		for (int k = 0; (k + mLastmove.row < ROWS && k + mLastmove.column < COLUMNS); k++) {
+		for (int k = 0; (ki + k < ROWS && ky + k < COLUMNS); k++) {
 			if ((board[(ki + k)*COLUMNS + (ky + k)] != mLastmove.player && board[(ki + k)*COLUMNS + (ky + k)] != '-') || ((ki+k)==mLastmove.row && (ky+k)==mLastmove.column)) {
 				counter++;
 				if ((ki + k) == mLastmove.row && (ky + k) == mLastmove.column)
 					blocked = true;
 				if (counter >= pawnInARow) {
 					if (blocked) {
-						value += pawnInARow;
+						value += pawnInARow+3;
 						break;
 					}
 				}
@@ -297,17 +291,17 @@ int Configuration::ValutateEnemyPositions(lastMove mLastmove, int pawnInARow) {
 	blocked = false;
 	ki = mLastmove.row;
 	ky = mLastmove.column;
-	for (; (ki < ROWS && ky >= 0); ki++, ky--) {
+	for (; (ki < ROWS-1 && ky > 0); ki++, ky--) {
 	}
 	if (!(ki < 3 || ky > 3)) {
-		for (int k = 0; (mLastmove.row - k >= 0 && k + mLastmove.column < COLUMNS); k++) {
+		for (int k = 0; (ki - k >= 0 && ky + k < COLUMNS); k++) {
 			if ((board[(ki - k)*COLUMNS + (ky + k)] != mLastmove.player && board[(ki - k)*COLUMNS + (ky + k)] != '-') || ((ki - k) == mLastmove.row && (ky + k) == mLastmove.column)) {
 				counter++;
 				if ((ki - k) == mLastmove.row && (ky + k) == mLastmove.column)
 					blocked = true;
 				if (counter >= pawnInARow) {
 					if (blocked) {
-						value += pawnInARow;
+						value += pawnInARow+3;
 						break;
 					}
 				}
