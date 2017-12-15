@@ -22,10 +22,14 @@ int main(int argc, char** argv) {
 	if (testFile.is_open()) {
 		int i = 0;
 		while (getline(testFile, line)) {
+			/*if (i != 7) {
+				i++;
+				continue;
+			}*/
 			start = clock();
 			Configuration c = Configuration(line);
 			writeInFile << c;
-			int solution = solver.Pvs(c, 10, numeric_limits<int>::min(), numeric_limits<int>::max());
+			int solution = solver.Pvs(c, 9, numeric_limits<int>::min(), numeric_limits<int>::max());
 			duration = (clock() - start) / (double)CLOCKS_PER_SEC;
 			writeInFile << "Configuration Number: " << i << endl;
 			writeInFile << "Duration: " << duration << endl;

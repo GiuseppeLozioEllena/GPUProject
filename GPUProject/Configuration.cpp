@@ -40,6 +40,7 @@ bool Configuration::isWinningMove() {
 	if (mLastmove.row == -1)
 		return false;
 	int counter = 0;
+
 	//check the column
 	for (int j = 0; j < COLUMNS; j++) {
 		if (board[mLastmove.row*COLUMNS+j] == mLastmove.player) {
@@ -110,6 +111,8 @@ bool Configuration::isWinningMove() {
 
 int Configuration::ValutateMove(lastMove mLastmove, int pawnInARow) {
 	int value = 0;
+	int _value = 0;
+	bool yourMove = false;
 	if (mLastmove.row == -1)
 		return value;
 
@@ -118,27 +121,47 @@ int Configuration::ValutateMove(lastMove mLastmove, int pawnInARow) {
 	for (int j = 0; j < COLUMNS; j++) {
 		if (board[mLastmove.row*COLUMNS + j] == mLastmove.player) {
 			counter++;
-			if (counter >= pawnInARow) {
-				value = counter;
+			if (j==mLastmove.column) {
+				yourMove = true;
+			}
+			if (counter >= pawnInARow && yourMove) {
+				if (counter == 4) {
+					_value = counter+1;
+					break;
+				}
+				_value = counter;
 			}
 		}
-		else
+		else {
 			counter = 0;
+			yourMove = false;
+		}
 	}
+	value += _value;
+	_value = 0;
 	counter = 0;
 	//check the columns
 	for (int i = mLastmove.row ; i < ROWS; i++) {
 		if (board[i*COLUMNS + mLastmove.column] == mLastmove.player) {
 			counter++;
+
 			if (counter >= pawnInARow) {
-				value = counter;
+				if (counter == 4) {
+					_value = counter + 1;
+					break;
+				}
+				_value = counter;
 			}
 		}
 		else
 			break;
 	}
+	
+	value += _value;
+	_value = 0;
 	value += (mLastmove.row<4)?mLastmove.row:3;
 	counter = 0;
+	yourMove = false;
 	//check right diagonal
 	int ki = mLastmove.row;
 	int ky = mLastmove.column;
@@ -148,17 +171,28 @@ int Configuration::ValutateMove(lastMove mLastmove, int pawnInARow) {
 		for (int k = 0; (k + mLastmove.row < ROWS && k + mLastmove.column < COLUMNS); k++) {
 			if (board[(ki + k)*COLUMNS + (ky + k)] == mLastmove.player) {
 				counter++;
-				if (counter >= pawnInARow) {
-					value = counter;
+				if ((ki + k) == mLastmove.row && (ky + k) == mLastmove.column) {
+					yourMove = true;
+				}
+				if (counter >= pawnInARow && yourMove) {
+					if (counter == 4) {
+						_value = counter + 1;
+						break;
+					}
+					_value = counter;
 				}
 			}
-			else
+			else {
 				counter = 0;
+				yourMove = false;
+			}
 		}
 	}
-
-	//check left diagonal
+	value += _value;
+	_value = 0;
 	counter = 0;
+	yourMove = false;
+	//check left diagonal
 	ki = mLastmove.row;
 	ky = mLastmove.column;
 	for (; (ki < ROWS && ky >= 0); ki++, ky--) {
@@ -167,15 +201,24 @@ int Configuration::ValutateMove(lastMove mLastmove, int pawnInARow) {
 		for (int k = 0; (mLastmove.row - k >= 0 && k + mLastmove.column < COLUMNS); k++) {
 			if (board[(ki - k)*COLUMNS + (ky + k)] == mLastmove.player) {
 				counter++;
-				if (counter >= pawnInARow) {
-					value = counter;
+				if ((ki - k) == mLastmove.row && (ky + k) == mLastmove.column) {
+					yourMove = true;
+				}
+				if (counter >= pawnInARow && yourMove) {
+					if (counter == 4) {
+						_value = counter + 1;
+						break;
+					}
+					_value = counter;
 				}
 			}
-			else
+			else {
 				counter = 0;
+				yourMove = false;
+			}
 		}
 	}
-
+	value += _value;
 	
 	return value;
 }
@@ -186,15 +229,18 @@ int Configuration::ValutateEnemyPositions(lastMove mLastmove, int pawnInARow) {
 		return value;
 
 	int counter = 0;
-
+	bool blocked = false;
 	//check the rows
 	for (int j = 0; j < COLUMNS; j++) {
-		if (board[mLastmove.row*COLUMNS + j] != mLastmove.player && board[mLastmove.row*COLUMNS + j] != '-') {
+		if ((board[mLastmove.row*COLUMNS + j] != mLastmove.player && board[mLastmove.row*COLUMNS + j] != '-') || j==mLastmove.column) {
 			counter++;
+			if (j == mLastmove.column)
+				blocked = true;
 			if (counter >= pawnInARow) {
-				if (j - counter >= 1) {
-					if (board[mLastmove.row*COLUMNS + (j - counter)] == '-')
-						value -= pawnInARow;
+				if (blocked) {
+					//printf("%d, %d\n",mLastmove.row,mLastmove.column);
+					value += pawnInARow;
+					break;
 				}
 			}
 		}
@@ -204,23 +250,73 @@ int Configuration::ValutateEnemyPositions(lastMove mLastmove, int pawnInARow) {
 
 	//check the Columns
 	counter = 0;
+	blocked = false;
 	for (int i = 0; i < ROWS; i++) {
-		if (board[i*COLUMNS + mLastmove.column] != mLastmove.player && board[i*COLUMNS + mLastmove.column] != '-') {
+		if ((board[i*COLUMNS + mLastmove.column] != mLastmove.player && board[i*COLUMNS + mLastmove.column] != '-') || i==mLastmove.row) {
 			counter++;
+			if (i == mLastmove.row)
+				blocked = true;
 			if (counter >= pawnInARow) {
-				if (i - counter >= 1) {
-					if (board[(i - counter)*COLUMNS + mLastmove.column] == '-')
-						value -= pawnInARow;
-				}
-				if (i < ROWS - 1) {
-					if (board[(i + 1)*COLUMNS + mLastmove.column] == '-')
-						value -= pawnInARow;
+				if (blocked) {
+					value += pawnInARow;
+					break;
 				}
 			}
 		}
 		else
 			counter = 0;
 	}
+
+	//check right diagonal
+	int ki = mLastmove.row;
+	int ky = mLastmove.column;
+	counter = 0;
+	blocked = false;
+	for (; (ki >= 0 && ky >= 0); ki--, ky--) {
+	}
+	if (!(ki >= 3 || ky >= 3)) {
+		for (int k = 0; (k + mLastmove.row < ROWS && k + mLastmove.column < COLUMNS); k++) {
+			if ((board[(ki + k)*COLUMNS + (ky + k)] != mLastmove.player && board[(ki + k)*COLUMNS + (ky + k)] != '-') || ((ki+k)==mLastmove.row && (ky+k)==mLastmove.column)) {
+				counter++;
+				if ((ki + k) == mLastmove.row && (ky + k) == mLastmove.column)
+					blocked = true;
+				if (counter >= pawnInARow) {
+					if (blocked) {
+						value += pawnInARow;
+						break;
+					}
+				}
+			}
+			else
+				counter = 0;
+		}
+	}
+
+	//check left diagonal
+	counter = 0;
+	blocked = false;
+	ki = mLastmove.row;
+	ky = mLastmove.column;
+	for (; (ki < ROWS && ky >= 0); ki++, ky--) {
+	}
+	if (!(ki < 3 || ky > 3)) {
+		for (int k = 0; (mLastmove.row - k >= 0 && k + mLastmove.column < COLUMNS); k++) {
+			if ((board[(ki - k)*COLUMNS + (ky + k)] != mLastmove.player && board[(ki - k)*COLUMNS + (ky + k)] != '-') || ((ki - k) == mLastmove.row && (ky + k) == mLastmove.column)) {
+				counter++;
+				if ((ki - k) == mLastmove.row && (ky + k) == mLastmove.column)
+					blocked = true;
+				if (counter >= pawnInARow) {
+					if (blocked) {
+						value += pawnInARow;
+						break;
+					}
+				}
+			}
+			else
+				counter = 0;
+		}
+	}
+
 	return value;
 }
 //genera le sette mosse successive
@@ -252,7 +348,7 @@ vector<lastMove> Configuration::SortNextMoves(vector<lastMove> moves) {
 
 	for (int i = 0; i < moves.size(); ++i) {
 		board[moves[i].row*COLUMNS + moves[i].column] = moves[i].player;
-		moves[i].value = ValutateMove(moves[i], 2) + ValutateEnemyPositions(moves[i], 3);
+		moves[i].value = ValutateMove(moves[i], 2) + ValutateEnemyPositions(moves[i], 4);
 		board[moves[i].row*COLUMNS + moves[i].column] = '-';
 	}
 
