@@ -55,7 +55,6 @@ int Solver::Pvs(Configuration configuration,int depth, int alpha, int beta)
 	moves.shrink_to_fit();
 
 	return alpha;
-	
 }
 
 unsigned long long Solver::getNodeCount()
