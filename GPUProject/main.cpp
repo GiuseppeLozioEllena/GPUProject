@@ -14,8 +14,10 @@ int main(int argc, char** argv) {
 	clock_t start;
 	double duration;
 	ifstream testFile("configurations.txt");
-	ofstream writeInFile;
-	writeInFile.open("benchmarker.txt");
+	ofstream writeInFileB;
+	ofstream writeInFileT;
+	writeInFileB.open("benchmarkerCpu.txt");
+	writeInFileT.open("benchmarkerTimeCpu.txt");
 
 	Solver solver=Solver();
 
@@ -28,24 +30,26 @@ int main(int argc, char** argv) {
 			}*/
 			start = clock();
 			Configuration c = Configuration(line);
-			writeInFile << c;
-			int solution = solver.Pvs(c, 8, numeric_limits<int>::min(), numeric_limits<int>::max());
+			writeInFileB << c;
+			int solution = solver.Pvs(c, 6, numeric_limits<int>::min(), numeric_limits<int>::max());
 			if (!(solution % 2 == 0))
 				solution = -solution;
 			duration = (clock() - start) / (double)CLOCKS_PER_SEC;
-			writeInFile << "Configuration Number: " << i << endl;
-			writeInFile << "Duration: " << duration << endl;
-			writeInFile << "Number Of Turn Until Some Win: " << solution << endl;
-			writeInFile << "Number Of Nodes Calculated: " << solver.getNodeCount() << endl;
-			writeInFile << "________________________________" << endl;
+			writeInFileT <<i<<" "<<duration << endl;
+			writeInFileB << "Configuration Number: " << i << endl;
+			writeInFileB << "Duration: " << duration << endl;
+			writeInFileB << "Number Of Turn Until Some Win: " << solution << endl;
+			writeInFileB << "Number Of Nodes Calculated: " << solver.getNodeCount() << endl;
+			writeInFileB << "________________________________" << endl;
 			solver.ResetNodeCount();
 			i++;
-			if (i >250)
+			if (i >500)
 				break;
 			c.deleteBoard();
 		}
 		testFile.close();
-		writeInFile.close();
+		writeInFileB.close();
+		writeInFileT.close();
 	}
 
 	system("pause");
