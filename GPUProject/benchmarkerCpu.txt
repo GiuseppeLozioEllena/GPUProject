@@ -5,9 +5,8 @@
 0X-0-XX
 0X-0-X0
 Configuration Number: 0
-Duration: 0.188
+Duration: 1.863
 Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3112
 ________________________________
 -------
 -------
@@ -16,9 +15,8 @@ ________________________________
 0X-0--X
 0X-0XX0
 Configuration Number: 1
-Duration: 0.177
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3071
+Duration: 8.656
+Number Of Turn Until Some Win: 9
 ________________________________
 -------
 -------
@@ -27,9 +25,8 @@ ________________________________
 0XX-00X
 0XX-00X
 Configuration Number: 2
-Duration: 0.214
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3174
+Duration: 3.711
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -38,9 +35,8 @@ ________________________________
 00XX-X-
 00XXX0-
 Configuration Number: 3
-Duration: 0.001
+Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -49,9 +45,8 @@ ________________________________
 0XXX0--
 0X00XX-
 Configuration Number: 4
-Duration: 0.186
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2983
+Duration: 3.983
+Number Of Turn Until Some Win: -8
 ________________________________
 -------
 -------
@@ -62,7 +57,6 @@ ________________________________
 Configuration Number: 5
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -71,9 +65,8 @@ ________________________________
 0XXX--0
 0X00--X
 Configuration Number: 6
-Duration: 0.11
+Duration: 2.291
 Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 2051
 ________________________________
 -------
 -------
@@ -82,9 +75,8 @@ ________________________________
 0X0-X--
 0XX-0-0
 Configuration Number: 7
-Duration: 0.047
+Duration: 0.564
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 849
 ________________________________
 -------
 -------
@@ -93,9 +85,8 @@ ________________________________
 0X--0-X
 0X0X0-X
 Configuration Number: 8
-Duration: 0.165
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2918
+Duration: 15.384
+Number Of Turn Until Some Win: -10
 ________________________________
 -------
 -------
@@ -104,9 +95,8 @@ ________________________________
 0X0--X-
 0X0X-0-
 Configuration Number: 9
-Duration: 0.165
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3063
+Duration: 9.467
+Number Of Turn Until Some Win: -10
 ________________________________
 -------
 -------
@@ -117,7 +107,6 @@ ________________________________
 Configuration Number: 10
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -126,9 +115,8 @@ ________________________________
 0X-X-X0
 0XX0-0X
 Configuration Number: 11
-Duration: 0.161
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3087
+Duration: 3.653
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -137,9 +125,8 @@ ________________________________
 0XX-0X-
 0XX-X00
 Configuration Number: 12
-Duration: 0
+Duration: 0.001
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -148,9 +135,8 @@ ________________________________
 0XX----
 0XX----
 Configuration Number: 13
-Duration: 0.158
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3031
+Duration: 12.94
+Number Of Turn Until Some Win: -10
 ________________________________
 -------
 -------
@@ -159,9 +145,8 @@ ________________________________
 0XX-00X
 0X0-0XX
 Configuration Number: 14
-Duration: 0.181
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3269
+Duration: 9.072
+Number Of Turn Until Some Win: 9
 ________________________________
 -------
 -------
@@ -172,7 +157,6 @@ ________________________________
 Configuration Number: 15
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -181,9 +165,8 @@ ________________________________
 0X-0-XX
 0XX0-0X
 Configuration Number: 16
-Duration: 0.16
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3026
+Duration: 4.745
+Number Of Turn Until Some Win: -8
 ________________________________
 -------
 -------
@@ -192,9 +175,8 @@ ________________________________
 0X--XX-
 0X0-XX-
 Configuration Number: 17
-Duration: 0.156
+Duration: 2.532
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2728
 ________________________________
 -------
 -------
@@ -205,7 +187,6 @@ ________________________________
 Configuration Number: 18
 Duration: 0.001
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -216,7 +197,6 @@ ________________________________
 Configuration Number: 19
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 2
 ________________________________
 -------
 -------
@@ -225,9 +205,8 @@ ________________________________
 0X0X-X0
 0X00-XX
 Configuration Number: 20
-Duration: 0.157
+Duration: 0.656
 Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3011
 ________________________________
 -------
 -------
@@ -236,9 +215,8 @@ ________________________________
 0X0--XX
 0XX0-X0
 Configuration Number: 21
-Duration: 0.199
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3636
+Duration: 3.712
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -247,9 +225,8 @@ ________________________________
 0XX0X--
 0X0X0X-
 Configuration Number: 22
-Duration: 0.023
+Duration: 0.128
 Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 414
 ________________________________
 -------
 -------
@@ -258,9 +235,8 @@ ________________________________
 0X-X0--
 0XXX00-
 Configuration Number: 23
-Duration: 0.073
+Duration: 1.518
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1249
 ________________________________
 -------
 -------
@@ -269,9 +245,8 @@ ________________________________
 0X-0XX-
 0X-0X0X
 Configuration Number: 24
-Duration: 0.178
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3206
+Duration: 2.296
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -280,9 +255,8 @@ ________________________________
 0XX---0
 0X0XX-0
 Configuration Number: 25
-Duration: 0.118
+Duration: 3.424
 Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 2147
 ________________________________
 -------
 -------
@@ -291,9 +265,8 @@ ________________________________
 0XX-0--
 0X0X0X-
 Configuration Number: 26
-Duration: 0.139
+Duration: 2.313
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 2500
 ________________________________
 -------
 -------
@@ -304,7 +277,6 @@ ________________________________
 Configuration Number: 27
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -315,7 +287,6 @@ ________________________________
 Configuration Number: 28
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -324,9 +295,8 @@ ________________________________
 0X-0-X-
 0X0X-0X
 Configuration Number: 29
-Duration: 0.152
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2875
+Duration: 2.559
+Number Of Turn Until Some Win: -8
 ________________________________
 -------
 -------
@@ -335,9 +305,8 @@ ________________________________
 0X0X-X-
 0XX00X-
 Configuration Number: 30
-Duration: 0.161
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3047
+Duration: 2.35
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -346,9 +315,8 @@ ________________________________
 0XXX0--
 0X0X0--
 Configuration Number: 31
-Duration: 0.056
+Duration: 0.446
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1039
 ________________________________
 -------
 -------
@@ -357,9 +325,8 @@ ________________________________
 0XXX--0
 0X00X-X
 Configuration Number: 32
-Duration: 0
+Duration: 0.001
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -368,9 +335,8 @@ ________________________________
 0XX0---
 0X0XX-0
 Configuration Number: 33
-Duration: 0.158
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3071
+Duration: 8.403
+Number Of Turn Until Some Win: 9
 ________________________________
 -------
 -------
@@ -381,7 +347,6 @@ ________________________________
 Configuration Number: 34
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -390,9 +355,8 @@ ________________________________
 0XX00--
 0X0XX--
 Configuration Number: 35
-Duration: 0.149
+Duration: 2.19
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2871
 ________________________________
 -------
 -------
@@ -401,9 +365,8 @@ ________________________________
 0XX--0-
 0X0X0X-
 Configuration Number: 36
-Duration: 0.147
+Duration: 2.594
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2685
 ________________________________
 -------
 -------
@@ -414,7 +377,6 @@ ________________________________
 Configuration Number: 37
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -423,9 +385,8 @@ ________________________________
 0X0X-X-
 0XX0-X0
 Configuration Number: 38
-Duration: 0.179
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3210
+Duration: 3.373
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -436,7 +397,6 @@ ________________________________
 Configuration Number: 39
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -445,9 +405,8 @@ ________________________________
 0X-0XX0
 0X-X00X
 Configuration Number: 40
-Duration: 0.159
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3007
+Duration: 11.894
+Number Of Turn Until Some Win: -10
 ________________________________
 -------
 -------
@@ -458,7 +417,6 @@ ________________________________
 Configuration Number: 41
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -469,7 +427,6 @@ ________________________________
 Configuration Number: 42
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -478,9 +435,8 @@ ________________________________
 0X00X-X
 0XXX0-0
 Configuration Number: 43
-Duration: 0.165
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3075
+Duration: 9.472
+Number Of Turn Until Some Win: -10
 ________________________________
 -------
 -------
@@ -491,7 +447,6 @@ ________________________________
 Configuration Number: 44
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -500,9 +455,8 @@ ________________________________
 0XX0--X
 0X00--X
 Configuration Number: 45
-Duration: 0.165
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3143
+Duration: 7.783
+Number Of Turn Until Some Win: 9
 ________________________________
 -------
 -------
@@ -511,9 +465,8 @@ ________________________________
 00XXX-0
 00X0X-X
 Configuration Number: 46
-Duration: 0.028
+Duration: 0.091
 Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 482
 ________________________________
 -------
 -------
@@ -522,9 +475,8 @@ ________________________________
 0X0X0--
 0XXX0-0
 Configuration Number: 47
-Duration: 0.17
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3079
+Duration: 4.012
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -533,9 +485,8 @@ ________________________________
 0X-XX0-
 0X-0X0X
 Configuration Number: 48
-Duration: 0.173
+Duration: 14.578
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 3231
 ________________________________
 -------
 -------
@@ -544,9 +495,8 @@ ________________________________
 0XXX0-0
 0XX00-X
 Configuration Number: 49
-Duration: 0.214
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 4009
+Duration: 9.37
+Number Of Turn Until Some Win: -10
 ________________________________
 -------
 -------
@@ -557,7 +507,6 @@ ________________________________
 Configuration Number: 50
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -566,9 +515,8 @@ ________________________________
 00--XX-
 00-XX0-
 Configuration Number: 51
-Duration: 0.167
+Duration: 1.343
 Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3153
 ________________________________
 -------
 -------
@@ -577,9 +525,8 @@ ________________________________
 0X-0X--
 0X-0XX-
 Configuration Number: 52
-Duration: 0.17
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3245
+Duration: 3.905
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -588,9 +535,8 @@ ________________________________
 00-XX-X
 00-XX-0
 Configuration Number: 53
-Duration: 0.098
+Duration: 2.362
 Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 1780
 ________________________________
 -------
 -------
@@ -599,9 +545,8 @@ ________________________________
 0X0--X0
 0XX-00X
 Configuration Number: 54
-Duration: 0.167
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2927
+Duration: 4.558
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -610,9 +555,8 @@ ________________________________
 0X0X-X-
 0X0X-0X
 Configuration Number: 55
-Duration: 0.182
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3355
+Duration: 10.448
+Number Of Turn Until Some Win: -10
 ________________________________
 -------
 -------
@@ -621,9 +565,8 @@ ________________________________
 0X-X-X-
 0X-X-X0
 Configuration Number: 56
-Duration: 0.153
+Duration: 3.027
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2722
 ________________________________
 -------
 -------
@@ -634,7 +577,6 @@ ________________________________
 Configuration Number: 57
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -643,9 +585,8 @@ ________________________________
 0XXX-0-
 00X0-XX
 Configuration Number: 58
-Duration: 0.157
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2825
+Duration: 39.687
+Number Of Turn Until Some Win: -10
 ________________________________
 -------
 -------
@@ -654,9 +595,8 @@ ________________________________
 0X--X00
 0X-X00X
 Configuration Number: 59
-Duration: 0.098
+Duration: 2.705
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1551
 ________________________________
 -------
 -------
@@ -665,9 +605,8 @@ ________________________________
 0XXX---
 0XX0-0X
 Configuration Number: 60
-Duration: 0.187
+Duration: 1.082
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2989
 ________________________________
 -------
 -------
@@ -676,9 +615,8 @@ ________________________________
 00X-XX-
 00X-0XX
 Configuration Number: 61
-Duration: 0.163
+Duration: 1.45
 Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3151
 ________________________________
 -------
 -------
@@ -687,9 +625,8 @@ ________________________________
 0X0-XX0
 0XX-X00
 Configuration Number: 62
-Duration: 0.001
+Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -698,9 +635,8 @@ ________________________________
 0X-X-00
 0X-00XX
 Configuration Number: 63
-Duration: 0.184
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3487
+Duration: 3.398
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -709,9 +645,8 @@ ________________________________
 0XX0-0-
 0X0X-X0
 Configuration Number: 64
-Duration: 0.167
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3075
+Duration: 3.759
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -720,9 +655,8 @@ ________________________________
 0XX0X0-
 0X0X0X-
 Configuration Number: 65
-Duration: 0.099
+Duration: 1.414
 Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 1814
 ________________________________
 -------
 -------
@@ -731,9 +665,8 @@ ________________________________
 0X-X0X-
 0X-0XX0
 Configuration Number: 66
-Duration: 0.084
+Duration: 1.202
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1537
 ________________________________
 -------
 -------
@@ -742,9 +675,8 @@ ________________________________
 0X-0XX-
 0X-0X0X
 Configuration Number: 67
-Duration: 0.082
+Duration: 1.79
 Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 1451
 ________________________________
 -------
 -------
@@ -753,9 +685,8 @@ ________________________________
 00XX0--
 00X0XX-
 Configuration Number: 68
-Duration: 0.019
+Duration: 0.037
 Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 336
 ________________________________
 -------
 -------
@@ -766,7 +697,6 @@ ________________________________
 Configuration Number: 69
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -775,9 +705,8 @@ ________________________________
 00XX---
 00X0X-X
 Configuration Number: 70
-Duration: 0.02
+Duration: 0.021
 Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 360
 ________________________________
 -------
 -------
@@ -788,7 +717,6 @@ ________________________________
 Configuration Number: 71
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -797,9 +725,8 @@ ________________________________
 0X00-X-
 0XXX00-
 Configuration Number: 72
-Duration: 0.193
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3454
+Duration: 15.197
+Number Of Turn Until Some Win: -10
 ________________________________
 -------
 -------
@@ -808,9 +735,8 @@ ________________________________
 0X--X0X
 0X--0X0
 Configuration Number: 73
-Duration: 0.185
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3441
+Duration: 15.226
+Number Of Turn Until Some Win: -10
 ________________________________
 -------
 -------
@@ -819,9 +745,8 @@ ________________________________
 0XX-00X
 0X0-XX0
 Configuration Number: 74
-Duration: 0.153
+Duration: 2.706
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2719
 ________________________________
 -------
 -------
@@ -830,9 +755,8 @@ ________________________________
 0X-X--0
 0XX00-X
 Configuration Number: 75
-Duration: 0.158
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3031
+Duration: 8.644
+Number Of Turn Until Some Win: 9
 ________________________________
 -------
 -------
@@ -843,7 +767,6 @@ ________________________________
 Configuration Number: 76
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -852,9 +775,8 @@ ________________________________
 0XXX-00
 0XX0-X0
 Configuration Number: 77
-Duration: 0.149
+Duration: 2.797
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2727
 ________________________________
 -------
 -------
@@ -863,9 +785,8 @@ ________________________________
 00-XX-0
 00X0X-X
 Configuration Number: 78
-Duration: 0.18
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3240
+Duration: 2.904
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -876,7 +797,6 @@ ________________________________
 Configuration Number: 79
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -885,9 +805,8 @@ ________________________________
 0XX-0--
 0XX0X0-
 Configuration Number: 80
-Duration: 0.157
+Duration: 1.687
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2696
 ________________________________
 -------
 -------
@@ -896,9 +815,8 @@ ________________________________
 0X--00X
 0X--X0X
 Configuration Number: 81
-Duration: 0.174
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3002
+Duration: 10.021
+Number Of Turn Until Some Win: 9
 ________________________________
 -------
 -------
@@ -907,9 +825,8 @@ ________________________________
 0X-0X-0
 0X-X00X
 Configuration Number: 82
-Duration: 0.144
+Duration: 1.613
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2673
 ________________________________
 -------
 -------
@@ -918,9 +835,8 @@ ________________________________
 00-X0X-
 00-XX0-
 Configuration Number: 83
-Duration: 0.083
+Duration: 1.48
 Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 1593
 ________________________________
 -------
 -------
@@ -929,9 +845,8 @@ ________________________________
 0X---X-
 0X0-XX0
 Configuration Number: 84
-Duration: 0.164
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3075
+Duration: 9.398
+Number Of Turn Until Some Win: -10
 ________________________________
 -------
 -------
@@ -942,7 +857,6 @@ ________________________________
 Configuration Number: 85
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -951,9 +865,8 @@ ________________________________
 0X-X--0
 0XX0--X
 Configuration Number: 86
-Duration: 0.166
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3319
+Duration: 1.762
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -962,9 +875,8 @@ ________________________________
 0XX--0-
 0X0-XX-
 Configuration Number: 87
-Duration: 0.198
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3557
+Duration: 10.7
+Number Of Turn Until Some Win: 9
 ________________________________
 -------
 -------
@@ -973,9 +885,8 @@ ________________________________
 0X-X00X
 0X-0XX0
 Configuration Number: 88
-Duration: 0.175
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3098
+Duration: 9.652
+Number Of Turn Until Some Win: 9
 ________________________________
 -------
 -------
@@ -984,9 +895,8 @@ ________________________________
 0X-00X-
 0X-XX00
 Configuration Number: 89
-Duration: 0.001
+Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -997,7 +907,6 @@ ________________________________
 Configuration Number: 90
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1006,9 +915,8 @@ ________________________________
 0XX---X
 0X0XX-0
 Configuration Number: 91
-Duration: 0.179
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3303
+Duration: 4.828
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -1019,7 +927,6 @@ ________________________________
 Configuration Number: 92
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1030,7 +937,6 @@ ________________________________
 Configuration Number: 93
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1041,7 +947,6 @@ ________________________________
 Configuration Number: 94
 Duration: 0.001
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1050,9 +955,8 @@ ________________________________
 0X-XX-0
 0X-X0-0
 Configuration Number: 95
-Duration: 0.163
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3050
+Duration: 12.29
+Number Of Turn Until Some Win: -10
 ________________________________
 -------
 -------
@@ -1061,9 +965,8 @@ ________________________________
 0X0-XX-
 0XX-00X
 Configuration Number: 96
-Duration: 0.131
+Duration: 2.376
 Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 2258
 ________________________________
 -------
 -------
@@ -1072,9 +975,8 @@ ________________________________
 0X-X-0X
 0X-X-X0
 Configuration Number: 97
-Duration: 0.159
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2959
+Duration: 9.828
+Number Of Turn Until Some Win: 9
 ________________________________
 -------
 -------
@@ -1083,9 +985,8 @@ ________________________________
 00-XX--
 00-XX0X
 Configuration Number: 98
-Duration: 0.169
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3182
+Duration: 5.109
+Number Of Turn Until Some Win: -8
 ________________________________
 -------
 -------
@@ -1096,7 +997,6 @@ ________________________________
 Configuration Number: 99
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1105,9 +1005,8 @@ ________________________________
 0X-0--0
 0X-XX-0
 Configuration Number: 100
-Duration: 0.001
+Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1118,7 +1017,6 @@ ________________________________
 Configuration Number: 101
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1127,9 +1025,8 @@ ________________________________
 0X---0X
 0X--0XX
 Configuration Number: 102
-Duration: 0.167
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3143
+Duration: 8.25
+Number Of Turn Until Some Win: -10
 ________________________________
 -------
 -------
@@ -1140,7 +1037,6 @@ ________________________________
 Configuration Number: 103
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1149,9 +1045,8 @@ ________________________________
 00X0XX-
 00XXX0-
 Configuration Number: 104
-Duration: 0.033
+Duration: 0.082
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 587
 ________________________________
 -------
 -------
@@ -1160,9 +1055,8 @@ ________________________________
 0X-0-X-
 0XXX00-
 Configuration Number: 105
-Duration: 0.173
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2803
+Duration: 2.691
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -1171,9 +1065,8 @@ ________________________________
 0XX0X--
 0X0X0X-
 Configuration Number: 106
-Duration: 0.052
+Duration: 0.349
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 769
 ________________________________
 -------
 -------
@@ -1182,9 +1075,8 @@ ________________________________
 0X0--X-
 0XX--0X
 Configuration Number: 107
-Duration: 0.161
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3019
+Duration: 9.566
+Number Of Turn Until Some Win: 9
 ________________________________
 -------
 -------
@@ -1193,9 +1085,8 @@ ________________________________
 0X-X00-
 0X-0XX0
 Configuration Number: 108
-Duration: 0.177
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3105
+Duration: 4.16
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -1206,7 +1097,6 @@ ________________________________
 Configuration Number: 109
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1215,9 +1105,8 @@ ________________________________
 00-X--X
 00-X-XX
 Configuration Number: 110
-Duration: 0.001
+Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1226,9 +1115,8 @@ ________________________________
 0X-X-0-
 0X0XX0-
 Configuration Number: 111
-Duration: 0.167
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3021
+Duration: 4.524
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -1237,9 +1125,8 @@ ________________________________
 0XX00X-
 0X0XX0-
 Configuration Number: 112
-Duration: 0.151
+Duration: 1.51
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2693
 ________________________________
 -------
 -------
@@ -1248,9 +1135,8 @@ ________________________________
 0X-XX0-
 0X-X00-
 Configuration Number: 113
-Duration: 0.09
+Duration: 2.691
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1545
 ________________________________
 -------
 -------
@@ -1261,7 +1147,6 @@ ________________________________
 Configuration Number: 114
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1270,9 +1155,8 @@ ________________________________
 0X0--X-
 0X0X-X-
 Configuration Number: 115
-Duration: 0.153
+Duration: 4.358
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2711
 ________________________________
 -------
 -------
@@ -1281,9 +1165,8 @@ ________________________________
 0X-0-X0
 0X-X-0X
 Configuration Number: 116
-Duration: 0.181
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3306
+Duration: 5.242
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -1292,9 +1175,8 @@ ________________________________
 0XX--00
 0X0--X0
 Configuration Number: 117
-Duration: 0.157
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3057
+Duration: 12.395
+Number Of Turn Until Some Win: 9
 ________________________________
 -------
 -------
@@ -1303,9 +1185,8 @@ ________________________________
 0X00X--
 0X0XX-0
 Configuration Number: 118
-Duration: 0.171
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3225
+Duration: 5.692
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -1314,9 +1195,8 @@ ________________________________
 00XX---
 00XX0X-
 Configuration Number: 119
-Duration: 0.169
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3211
+Duration: 3.877
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -1325,9 +1205,8 @@ ________________________________
 0X-X00X
 0X-00XX
 Configuration Number: 120
-Duration: 0.15
+Duration: 0.804
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2746
 ________________________________
 -------
 -------
@@ -1336,9 +1215,8 @@ ________________________________
 0X--XX-
 0X-0X0-
 Configuration Number: 121
-Duration: 0.171
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3071
+Duration: 3.796
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -1347,9 +1225,8 @@ ________________________________
 0X-X0X0
 0X-00XX
 Configuration Number: 122
-Duration: 0.099
+Duration: 1.179
 Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 1783
 ________________________________
 -------
 -------
@@ -1358,9 +1235,8 @@ ________________________________
 0XX00-X
 0X0XX-0
 Configuration Number: 123
-Duration: 0.133
+Duration: 2.22
 Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 2345
 ________________________________
 -------
 -------
@@ -1369,9 +1245,8 @@ ________________________________
 0XX0---
 0X0X---
 Configuration Number: 124
-Duration: 0.159
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3071
+Duration: 7.791
+Number Of Turn Until Some Win: 9
 ________________________________
 -------
 -------
@@ -1380,9 +1255,8 @@ ________________________________
 0X--0X-
 0X--00X
 Configuration Number: 125
-Duration: 0.176
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3157
+Duration: 9.717
+Number Of Turn Until Some Win: 9
 ________________________________
 -------
 -------
@@ -1391,9 +1265,8 @@ ________________________________
 0X-X--X
 0XXX0-0
 Configuration Number: 126
-Duration: 0.183
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3410
+Duration: 7.826
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -1404,7 +1277,6 @@ ________________________________
 Configuration Number: 127
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1413,9 +1285,8 @@ ________________________________
 00--X0X
 00--XXX
 Configuration Number: 128
-Duration: 0
+Duration: 0.001
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1424,9 +1295,8 @@ ________________________________
 0X0-X--
 0X0XX--
 Configuration Number: 129
-Duration: 0.167
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2923
+Duration: 6.353
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -1435,9 +1305,8 @@ ________________________________
 0XX---X
 0X0X0-X
 Configuration Number: 130
-Duration: 0.162
+Duration: 1.888
 Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3031
 ________________________________
 -------
 -------
@@ -1446,9 +1315,8 @@ ________________________________
 0XXX-0-
 0XX0-0-
 Configuration Number: 131
-Duration: 0.089
+Duration: 1.843
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1622
 ________________________________
 -------
 -------
@@ -1459,7 +1327,6 @@ ________________________________
 Configuration Number: 132
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1468,9 +1335,8 @@ ________________________________
 0X--X0-
 0X0X0X-
 Configuration Number: 133
-Duration: 0.153
+Duration: 2.631
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2742
 ________________________________
 -------
 -------
@@ -1479,9 +1345,8 @@ ________________________________
 00-XX-0
 00XX0-X
 Configuration Number: 134
-Duration: 0.165
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3131
+Duration: 2.732
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -1490,9 +1355,8 @@ ________________________________
 00--X-X
 00X-X-0
 Configuration Number: 135
-Duration: 0.163
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2931
+Duration: 4.168
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -1501,9 +1365,8 @@ ________________________________
 0X-X0X-
 0X0XX0-
 Configuration Number: 136
-Duration: 0.125
+Duration: 0.854
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 2235
 ________________________________
 -------
 -------
@@ -1512,9 +1375,8 @@ ________________________________
 0XX--X0
 0XX-00X
 Configuration Number: 137
-Duration: 0.188
+Duration: 3.682
 Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3315
 ________________________________
 -------
 -------
@@ -1523,9 +1385,8 @@ ________________________________
 0X-0X0X
 0X-0XX0
 Configuration Number: 138
-Duration: 0.153
+Duration: 1.684
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2713
 ________________________________
 -------
 -------
@@ -1534,9 +1395,8 @@ ________________________________
 0X--00X
 0X-0XX0
 Configuration Number: 139
-Duration: 0.181
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3279
+Duration: 9.547
+Number Of Turn Until Some Win: 9
 ________________________________
 -------
 -------
@@ -1545,9 +1405,8 @@ ________________________________
 0X-X---
 0X-0X--
 Configuration Number: 140
-Duration: 0.155
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3215
+Duration: 3.549
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -1556,9 +1415,8 @@ ________________________________
 0X0-X0X
 0XX-0X0
 Configuration Number: 141
-Duration: 0.179
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3191
+Duration: 4.003
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -1567,9 +1425,8 @@ ________________________________
 0X0X0X-
 0XXX00-
 Configuration Number: 142
-Duration: 0.001
+Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1578,9 +1435,8 @@ ________________________________
 000--XX
 00X-0XX
 Configuration Number: 143
-Duration: 0.149
+Duration: 0.74
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2651
 ________________________________
 -------
 -------
@@ -1589,9 +1445,8 @@ ________________________________
 0X-X0--
 0X00X-X
 Configuration Number: 144
-Duration: 0.179
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3379
+Duration: 2.829
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -1602,7 +1457,6 @@ ________________________________
 Configuration Number: 145
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1611,9 +1465,8 @@ ________________________________
 00-XX0-
 00-0XX-
 Configuration Number: 146
-Duration: 0.111
+Duration: 0.606
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2193
 ________________________________
 -------
 -------
@@ -1622,9 +1475,8 @@ ________________________________
 0X0-X0X
 0XX-00X
 Configuration Number: 147
-Duration: 0.151
+Duration: 2.581
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2682
 ________________________________
 -------
 -------
@@ -1633,9 +1485,8 @@ ________________________________
 0XX0-X-
 0X0X0X-
 Configuration Number: 148
-Duration: 0.171
+Duration: 0.96
 Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3179
 ________________________________
 -------
 -------
@@ -1644,9 +1495,8 @@ ________________________________
 0X0-X-X
 0XX00-X
 Configuration Number: 149
-Duration: 0.079
+Duration: 0.202
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1389
 ________________________________
 -------
 -------
@@ -1657,7 +1507,6 @@ ________________________________
 Configuration Number: 150
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1666,9 +1515,8 @@ ________________________________
 0X0XX0-
 0XXX00-
 Configuration Number: 151
-Duration: 0.158
+Duration: 2.48
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2720
 ________________________________
 -------
 -------
@@ -1677,9 +1525,8 @@ ________________________________
 00--0XX
 00X-X0X
 Configuration Number: 152
-Duration: 0.216
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3966
+Duration: 2.91
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -1688,9 +1535,8 @@ ________________________________
 0X0XX--
 0XXX00-
 Configuration Number: 153
-Duration: 0.058
+Duration: 0.646
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1050
 ________________________________
 -------
 -------
@@ -1699,9 +1545,8 @@ ________________________________
 0X-XX--
 0X-0X-0
 Configuration Number: 154
-Duration: 0.169
+Duration: 3.213
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 3211
 ________________________________
 -------
 -------
@@ -1710,9 +1555,8 @@ ________________________________
 0X---0X
 0X-00XX
 Configuration Number: 155
-Duration: 0.164
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2903
+Duration: 10.162
+Number Of Turn Until Some Win: 9
 ________________________________
 -------
 -------
@@ -1721,9 +1565,8 @@ ________________________________
 0X-XX-0
 0X-0X-X
 Configuration Number: 156
-Duration: 0.149
+Duration: 2.153
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2744
 ________________________________
 -------
 -------
@@ -1732,9 +1575,8 @@ ________________________________
 0XX0X--
 0XX00--
 Configuration Number: 157
-Duration: 0.167
+Duration: 1.103
 Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3242
 ________________________________
 -------
 -------
@@ -1743,9 +1585,8 @@ ________________________________
 0X--X-X
 0XX-0-0
 Configuration Number: 158
-Duration: 0.173
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3219
+Duration: 13.869
+Number Of Turn Until Some Win: -10
 ________________________________
 -------
 -------
@@ -1756,7 +1597,6 @@ ________________________________
 Configuration Number: 159
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1765,9 +1605,8 @@ ________________________________
 0X---X-
 0X--XX0
 Configuration Number: 160
-Duration: 0.17
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3007
+Duration: 3.577
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -1778,7 +1617,6 @@ ________________________________
 Configuration Number: 161
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1787,9 +1625,8 @@ ________________________________
 0X0-0XX
 0XX-0X0
 Configuration Number: 162
-Duration: 0.188
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3238
+Duration: 4.654
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -1800,7 +1637,6 @@ ________________________________
 Configuration Number: 163
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1809,9 +1645,8 @@ ________________________________
 00XX-X-
 00XX-X-
 Configuration Number: 164
-Duration: 0.001
+Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1820,9 +1655,8 @@ ________________________________
 0X0X---
 0XX0X0-
 Configuration Number: 165
-Duration: 0.156
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2922
+Duration: 7.78
+Number Of Turn Until Some Win: 9
 ________________________________
 -------
 -------
@@ -1831,9 +1665,8 @@ ________________________________
 0X-0-XX
 0X-XX00
 Configuration Number: 166
-Duration: 0
+Duration: 0.001
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1842,9 +1675,8 @@ ________________________________
 0X-X0X-
 0X-00X-
 Configuration Number: 167
-Duration: 0.142
+Duration: 1.328
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2720
 ________________________________
 -------
 -------
@@ -1855,7 +1687,6 @@ ________________________________
 Configuration Number: 168
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1864,9 +1695,8 @@ ________________________________
 0XX---X
 0X0-X-0
 Configuration Number: 169
-Duration: 0.143
+Duration: 2.311
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2714
 ________________________________
 -------
 -------
@@ -1875,9 +1705,8 @@ ________________________________
 0XX0-0-
 0XXX-0-
 Configuration Number: 170
-Duration: 0.001
+Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -1886,9 +1715,8 @@ ________________________________
 0X----0
 0X-X--X
 Configuration Number: 171
-Duration: 0.1
+Duration: 3.591
 Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 1678
 ________________________________
 -------
 -------
@@ -1897,9 +1725,8 @@ ________________________________
 0XX-X--
 0X0-0X-
 Configuration Number: 172
-Duration: 0.148
+Duration: 3.663
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2703
 ________________________________
 -------
 -------
@@ -1908,9 +1735,8 @@ ________________________________
 0X--XX-
 0X-0XX0
 Configuration Number: 173
-Duration: 0.175
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3041
+Duration: 3.753
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -1919,9 +1745,8 @@ ________________________________
 00X0--X
 00X0-XX
 Configuration Number: 174
-Duration: 0.169
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3173
+Duration: 8.622
+Number Of Turn Until Some Win: 9
 ________________________________
 -------
 -------
@@ -1930,9 +1755,8 @@ ________________________________
 0XX-0-X
 0X0-X0X
 Configuration Number: 175
-Duration: 0.171
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3071
+Duration: 10.693
+Number Of Turn Until Some Win: 9
 ________________________________
 -------
 -------
@@ -1941,9 +1765,8 @@ ________________________________
 0X0XX--
 0XXX0--
 Configuration Number: 176
-Duration: 0.122
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2367
+Duration: 1.225
+Number Of Turn Until Some Win: -8
 ________________________________
 -------
 -------
@@ -1952,9 +1775,8 @@ ________________________________
 00X--X-
 00X-X0-
 Configuration Number: 177
-Duration: 0.073
+Duration: 0.91
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1429
 ________________________________
 -------
 -------
@@ -1963,9 +1785,8 @@ ________________________________
 0X00-X-
 0X00-XX
 Configuration Number: 178
-Duration: 0.159
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3191
+Duration: 3.08
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -1974,9 +1795,8 @@ ________________________________
 0XX-00X
 0X0-XX0
 Configuration Number: 179
-Duration: 0.181
+Duration: 1.953
 Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3153
 ________________________________
 -------
 -------
@@ -1985,9 +1805,8 @@ ________________________________
 0X---X0
 0X-X-0X
 Configuration Number: 180
-Duration: 0.156
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3023
+Duration: 9.254
+Number Of Turn Until Some Win: -10
 ________________________________
 -------
 -------
@@ -1996,9 +1815,8 @@ ________________________________
 0X-XX0-
 0X-X0X0
 Configuration Number: 181
-Duration: 0.199
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3585
+Duration: 15.84
+Number Of Turn Until Some Win: -10
 ________________________________
 -------
 -------
@@ -2007,9 +1825,8 @@ ________________________________
 0XX0--X
 00X0-XX
 Configuration Number: 182
-Duration: 0.162
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3085
+Duration: 12.073
+Number Of Turn Until Some Win: -10
 ________________________________
 -------
 -------
@@ -2018,9 +1835,8 @@ ________________________________
 0X0X--X
 0XXX0-0
 Configuration Number: 183
-Duration: 0.165
+Duration: 2.648
 Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3095
 ________________________________
 -------
 -------
@@ -2029,9 +1845,8 @@ ________________________________
 0X--X-X
 0X--0-0
 Configuration Number: 184
-Duration: 0.173
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3169
+Duration: 7.589
+Number Of Turn Until Some Win: 9
 ________________________________
 -------
 -------
@@ -2040,9 +1855,8 @@ ________________________________
 0X-XX-0
 0X-X00X
 Configuration Number: 185
-Duration: 0.157
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2879
+Duration: 3.65
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -2051,9 +1865,8 @@ ________________________________
 0X0--XX
 0XX--X0
 Configuration Number: 186
-Duration: 0.259
+Duration: 21.488
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 4525
 ________________________________
 -------
 -------
@@ -2064,7 +1877,6 @@ ________________________________
 Configuration Number: 187
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2073,9 +1885,8 @@ ________________________________
 0X-XX0-
 0X-0XX0
 Configuration Number: 188
-Duration: 0.153
+Duration: 2.361
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2716
 ________________________________
 -------
 -------
@@ -2084,9 +1895,8 @@ ________________________________
 0X---X-
 0XX-X00
 Configuration Number: 189
-Duration: 0.001
+Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2095,9 +1905,8 @@ ________________________________
 0X-0X--
 0X0XX--
 Configuration Number: 190
-Duration: 0.164
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2993
+Duration: 3.004
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -2106,9 +1915,8 @@ ________________________________
 0XX0---
 0XX0-X-
 Configuration Number: 191
-Duration: 0.168
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3103
+Duration: 2.71
+Number Of Turn Until Some Win: -8
 ________________________________
 -------
 -------
@@ -2117,9 +1925,8 @@ ________________________________
 0X-00-X
 0X-0X-0
 Configuration Number: 192
-Duration: 0.168
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3141
+Duration: 3.434
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -2128,9 +1935,8 @@ ________________________________
 0X0-X-X
 0XXX0-0
 Configuration Number: 193
-Duration: 0.047
+Duration: 0.09
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 849
 ________________________________
 -------
 -------
@@ -2141,7 +1947,6 @@ ________________________________
 Configuration Number: 194
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2152,7 +1957,6 @@ ________________________________
 Configuration Number: 195
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2161,9 +1965,8 @@ ________________________________
 0XX-X--
 0X0-X0X
 Configuration Number: 196
-Duration: 0.178
+Duration: 58.826
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 3217
 ________________________________
 -------
 -------
@@ -2172,9 +1975,8 @@ ________________________________
 00XX---
 000XX--
 Configuration Number: 197
-Duration: 0.104
+Duration: 2.345
 Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 2052
 ________________________________
 -------
 -------
@@ -2185,7 +1987,6 @@ ________________________________
 Configuration Number: 198
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2194,9 +1995,8 @@ ________________________________
 0XX--0X
 0X0-XX0
 Configuration Number: 199
-Duration: 0.16
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3071
+Duration: 3.607
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -2205,9 +2005,8 @@ ________________________________
 0X-0X0X
 0X-X0X0
 Configuration Number: 200
-Duration: 0.098
+Duration: 3.383
 Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 1783
 ________________________________
 -------
 -------
@@ -2216,9 +2015,8 @@ ________________________________
 0X0X--0
 0XX0-X0
 Configuration Number: 201
-Duration: 0.153
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2945
+Duration: 7.416
+Number Of Turn Until Some Win: 9
 ________________________________
 -------
 -------
@@ -2229,7 +2027,6 @@ ________________________________
 Configuration Number: 202
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2238,9 +2035,8 @@ ________________________________
 0X-XX0-
 0X-X0X-
 Configuration Number: 203
-Duration: 0.094
+Duration: 1.879
 Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 1679
 ________________________________
 -------
 -------
@@ -2251,7 +2047,6 @@ ________________________________
 Configuration Number: 204
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2260,9 +2055,8 @@ ________________________________
 00XX-X0
 000X-XX
 Configuration Number: 205
-Duration: 0.001
+Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2271,9 +2065,8 @@ ________________________________
 0XX--X0
 0X0--0X
 Configuration Number: 206
-Duration: 0.161
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3071
+Duration: 2.982
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -2284,7 +2077,6 @@ ________________________________
 Configuration Number: 207
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2293,9 +2085,8 @@ ________________________________
 0XX0-0-
 0XX0-X-
 Configuration Number: 208
-Duration: 0.169
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3095
+Duration: 3.021
+Number Of Turn Until Some Win: -8
 ________________________________
 -------
 -------
@@ -2304,9 +2095,8 @@ ________________________________
 0X0--X0
 0XX--00
 Configuration Number: 209
-Duration: 0.149
+Duration: 2.281
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2708
 ________________________________
 -------
 -------
@@ -2315,9 +2105,8 @@ ________________________________
 0X00X--
 0XXX0--
 Configuration Number: 210
-Duration: 0.171
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3111
+Duration: 2.62
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -2328,7 +2117,6 @@ ________________________________
 Configuration Number: 211
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2337,9 +2125,8 @@ ________________________________
 0X0X0X-
 0X00XX-
 Configuration Number: 212
-Duration: 0.001
+Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2350,7 +2137,6 @@ ________________________________
 Configuration Number: 213
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2359,9 +2145,8 @@ ________________________________
 0X-X-X-
 0X0X-X0
 Configuration Number: 214
-Duration: 0.135
+Duration: 1.817
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 2477
 ________________________________
 -------
 -------
@@ -2370,9 +2155,8 @@ ________________________________
 00--XX-
 00X-XX-
 Configuration Number: 215
-Duration: 0.001
+Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2383,7 +2167,6 @@ ________________________________
 Configuration Number: 216
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2394,7 +2177,6 @@ ________________________________
 Configuration Number: 217
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2403,9 +2185,8 @@ ________________________________
 0X0X0-X
 0XX0X-0
 Configuration Number: 218
-Duration: 0.158
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2947
+Duration: 2.385
+Number Of Turn Until Some Win: -8
 ________________________________
 -------
 -------
@@ -2414,9 +2195,8 @@ ________________________________
 0X-X0X-
 0X-0XX-
 Configuration Number: 219
-Duration: 0.171
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3079
+Duration: 27.924
+Number Of Turn Until Some Win: -10
 ________________________________
 -------
 -------
@@ -2425,9 +2205,8 @@ ________________________________
 0XXX--0
 0X00-XX
 Configuration Number: 220
-Duration: 0.151
+Duration: 3.053
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2828
 ________________________________
 -------
 -------
@@ -2438,7 +2217,6 @@ ________________________________
 Configuration Number: 221
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2447,9 +2225,8 @@ ________________________________
 0X-X---
 0XX0--0
 Configuration Number: 222
-Duration: 0.047
+Duration: 0.978
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 931
 ________________________________
 -------
 -------
@@ -2458,9 +2235,8 @@ ________________________________
 0XX-0X-
 0X0-XX-
 Configuration Number: 223
-Duration: 0.17
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3007
+Duration: 23.204
+Number Of Turn Until Some Win: -10
 ________________________________
 -------
 -------
@@ -2469,9 +2245,8 @@ ________________________________
 00---XX
 00--X0X
 Configuration Number: 224
-Duration: 0.064
+Duration: 0.529
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1227
 ________________________________
 -------
 -------
@@ -2480,9 +2255,8 @@ ________________________________
 0XX----
 0X0X--X
 Configuration Number: 225
-Duration: 0.085
+Duration: 1.921
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1505
 ________________________________
 -------
 -------
@@ -2493,7 +2267,6 @@ ________________________________
 Configuration Number: 226
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2504,7 +2277,6 @@ ________________________________
 Configuration Number: 227
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2515,7 +2287,6 @@ ________________________________
 Configuration Number: 228
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2524,9 +2295,8 @@ ________________________________
 0X-X00X
 0X-X0X0
 Configuration Number: 229
-Duration: 0.068
+Duration: 1.597
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1213
 ________________________________
 -------
 -------
@@ -2535,9 +2305,8 @@ ________________________________
 00X---X
 00X-X-X
 Configuration Number: 230
-Duration: 0.032
+Duration: 0.695
 Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 596
 ________________________________
 -------
 -------
@@ -2546,9 +2315,8 @@ ________________________________
 0X0--X-
 0XX0-X0
 Configuration Number: 231
-Duration: 0.162
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2987
+Duration: 9.284
+Number Of Turn Until Some Win: -10
 ________________________________
 -------
 -------
@@ -2557,9 +2325,8 @@ ________________________________
 00XXX0-
 00XX0X-
 Configuration Number: 232
-Duration: 0.182
+Duration: 1.015
 Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3241
 ________________________________
 -------
 -------
@@ -2568,9 +2335,8 @@ ________________________________
 0XX--X0
 0XX--0X
 Configuration Number: 233
-Duration: 0.161
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3023
+Duration: 9.322
+Number Of Turn Until Some Win: 9
 ________________________________
 -------
 -------
@@ -2581,7 +2347,6 @@ ________________________________
 Configuration Number: 234
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2590,9 +2355,8 @@ ________________________________
 0X0--XX
 0XX-0X0
 Configuration Number: 235
-Duration: 0.173
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3097
+Duration: 2.231
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -2601,9 +2365,8 @@ ________________________________
 0X---00
 0X---XX
 Configuration Number: 236
-Duration: 0.158
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3023
+Duration: 10.259
+Number Of Turn Until Some Win: -10
 ________________________________
 -------
 -------
@@ -2612,9 +2375,8 @@ ________________________________
 0X0-XX0
 0XX-00X
 Configuration Number: 237
-Duration: 0.114
+Duration: 3.251
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1990
 ________________________________
 -------
 -------
@@ -2623,9 +2385,8 @@ ________________________________
 00-X-X0
 00-0XXX
 Configuration Number: 238
-Duration: 0.144
+Duration: 0.538
 Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2839
 ________________________________
 -------
 -------
@@ -2634,9 +2395,8 @@ ________________________________
 0X-X0-0
 0X-0XX0
 Configuration Number: 239
-Duration: 0.189
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3393
+Duration: 3.814
+Number Of Turn Until Some Win: 7
 ________________________________
 -------
 -------
@@ -2645,9 +2405,8 @@ ________________________________
 0X0-X-0
 0XXX0-0
 Configuration Number: 240
-Duration: 0.071
+Duration: 3.006
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1269
 ________________________________
 -------
 -------
@@ -2658,7 +2417,6 @@ ________________________________
 Configuration Number: 241
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2667,9 +2425,8 @@ ________________________________
 00-XX-X
 00-X0-X
 Configuration Number: 242
-Duration: 0.19
+Duration: 4.342
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 3575
 ________________________________
 -------
 -------
@@ -2680,7 +2437,6 @@ ________________________________
 Configuration Number: 243
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2689,9 +2445,8 @@ ________________________________
 0X-X0X-
 0X-X00X
 Configuration Number: 244
-Duration: 0.146
+Duration: 1.086
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2733
 ________________________________
 -------
 -------
@@ -2702,7 +2457,6 @@ ________________________________
 Configuration Number: 245
 Duration: 0
 Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
 -------
 -------
@@ -2711,9 +2465,8 @@ ________________________________
 0X-X00-
 0X0XX0-
 Configuration Number: 246
-Duration: 0.072
+Duration: 1.262
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1258
 ________________________________
 -------
 -------
@@ -2722,9 +2475,8 @@ ________________________________
 0X---X0
 0X-X0X0
 Configuration Number: 247
-Duration: 0.065
+Duration: 2.216
 Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1235
 ________________________________
 -------
 -------
@@ -2733,9 +2485,8 @@ ________________________________
 0X-0X--
 0X-0XX0
 Configuration Number: 248
-Duration: 0.16
+Duration: 2.4
 Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3146
 ________________________________
 -------
 -------
@@ -2744,9 +2495,8 @@ ________________________________
 0XXX--0
 0XX0--X
 Configuration Number: 249
-Duration: 0.12
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2227
+Duration: 7.89
+Number Of Turn Until Some Win: -10
 ________________________________
 -------
 -------
@@ -2755,2757 +2505,6 @@ ________________________________
 0XX0X--
 0X00X--
 Configuration Number: 250
-Duration: 0.15
+Duration: 1.946
 Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2707
-________________________________
--------
--------
--------
--0X--X-
-0XX0-0-
-0X00-XX
-Configuration Number: 251
-Duration: 0.169
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3152
-________________________________
--------
--------
--------
--------
-00--XXX
-00--XX0
-Configuration Number: 252
-Duration: 0.097
-Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 1795
-________________________________
--------
--------
--------
--0----0
-0X--X-0
-0X--X-X
-Configuration Number: 253
-Duration: 0.092
-Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 1672
-________________________________
--------
--------
--------
--00X--X
-0XX0-X0
-0XX0-X0
-Configuration Number: 254
-Duration: 0.171
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3325
-________________________________
--------
--------
--------
-----00-
-00-XXX-
-00-XXX-
-Configuration Number: 255
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0---0X
-0XX--X0
-0X0X-0X
-Configuration Number: 256
-Duration: 0.165
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3143
-________________________________
--------
--------
--------
--------
-00X-0X-
-00X-XX-
-Configuration Number: 257
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0--X--
-0X--XX-
-0X--00-
-Configuration Number: 258
-Duration: 0.176
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3181
-________________________________
--------
--------
--------
--0-X---
-0X-00XX
-0X-0X0X
-Configuration Number: 259
-Duration: 0.149
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2724
-________________________________
--------
--------
--------
--0X----
-0X0----
-0XX0--X
-Configuration Number: 260
-Duration: 0.161
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3047
-________________________________
--------
--------
--------
--0X--0-
-0XX--X0
-0X0-0XX
-Configuration Number: 261
-Duration: 0.17
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3071
-________________________________
--------
--------
--------
--0--X--
-0X0XX0-
-0XXX00-
-Configuration Number: 262
-Duration: 0.156
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2714
-________________________________
--------
--------
--------
--0X-X--
-0XX00--
-0X0X0-X
-Configuration Number: 263
-Duration: 0.153
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2758
-________________________________
--------
--------
--------
--0-X--0
-0X-XX-0
-0X-0X0X
-Configuration Number: 264
-Duration: 0.15
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2722
-________________________________
--------
--------
--------
--0--0--
-0X--XX-
-0X--0X-
-Configuration Number: 265
-Duration: 0.165
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3103
-________________________________
--------
--------
--------
--0X----
-0XX--X-
-0X0--0-
-Configuration Number: 266
-Duration: 0.158
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3097
-________________________________
--------
--------
--------
--00----
-0XX-X0-
-0X0-XX-
-Configuration Number: 267
-Duration: 0.095
-Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 1693
-________________________________
--------
--------
--------
--0-X-00
-0X-0-XX
-0X-X-0X
-Configuration Number: 268
-Duration: 0.164
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3099
-________________________________
--------
--------
--------
--0---0-
-0X--XX-
-0XX-0X0
-Configuration Number: 269
-Duration: 0.184
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3253
-________________________________
--------
--------
--------
--0---0-
-0X---X-
-0XX-X0-
-Configuration Number: 270
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0---X-
-0X---X-
-0X0--0X
-Configuration Number: 271
-Duration: 0.161
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3071
-________________________________
--------
--------
--------
--0---X0
-0X0--XX
-0XX-00X
-Configuration Number: 272
-Duration: 0.114
-Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 2001
-________________________________
--------
--------
--------
--00----
-0XX-X--
-0XX00X-
-Configuration Number: 273
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
----X---
-00-0-XX
-00XX-0X
-Configuration Number: 274
-Duration: 0.119
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2329
-________________________________
--------
--------
--------
--0---XX
-0X-0-X0
-0XX0-0X
-Configuration Number: 275
-Duration: 0.175
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3287
-________________________________
--------
--------
--------
--0---X-
-0X-XX00
-0X-0XX0
-Configuration Number: 276
-Duration: 0.149
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2704
-________________________________
--------
--------
--------
---0--0-
-0XXX-0-
-00XX-X-
-Configuration Number: 277
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
----X---
-00XX---
-00X0--X
-Configuration Number: 278
-Duration: 0.166
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3217
-________________________________
--------
--------
--------
-----XX-
-00--X0X
-00--0XX
-Configuration Number: 279
-Duration: 0.163
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3085
-________________________________
--------
--------
--------
--0--0X-
-0X--X0-
-0X-X0X-
-Configuration Number: 280
-Duration: 0.182
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3139
-________________________________
--------
--------
--------
--0-----
-0X0XX--
-0X0X0X-
-Configuration Number: 281
-Duration: 0.148
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2714
-________________________________
--------
--------
--------
--0-----
-0X--XX0
-0X0-0XX
-Configuration Number: 282
-Duration: 0.169
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3079
-________________________________
--------
--------
--------
--0-X--X
-0X-0-0X
-0X-0XX0
-Configuration Number: 283
-Duration: 0.142
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2677
-________________________________
--------
--------
--------
--0--X-X
-0X--0X0
-0XX-0X0
-Configuration Number: 284
-Duration: 0.174
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3081
-________________________________
--------
--------
--------
--0-X0X-
-0XX0X0-
-0X00XX-
-Configuration Number: 285
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0X--X0
-0X0X-0X
-0X00-XX
-Configuration Number: 286
-Duration: 0.154
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2974
-________________________________
--------
--------
--------
--0X----
-0X0-X--
-0XX00-X
-Configuration Number: 287
-Duration: 0.152
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2747
-________________________________
--------
--------
--------
--00X--X
-0XXX--0
-0X00--X
-Configuration Number: 288
-Duration: 0.169
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3257
-________________________________
--------
--------
--------
-----X--
-0X0X0--
-000XXX-
-Configuration Number: 289
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0---0-
-0XXX-0-
-0XX0-X-
-Configuration Number: 290
-Duration: 0.15
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2729
-________________________________
--------
--------
--------
--0-X00-
-0X-0XX-
-0X-X0X-
-Configuration Number: 291
-Duration: 0.169
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3211
-________________________________
--------
--------
--------
--0--0-X
-0X--0-X
-0XX-X-0
-Configuration Number: 292
-Duration: 0.001
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--00-XX-
-0X0-X0-
-0XX-0X-
-Configuration Number: 293
-Duration: 0.171
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3139
-________________________________
--------
--------
--------
---00XX-
-0XX00X-
-00XXX0-
-Configuration Number: 294
-Duration: 0.125
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2303
-________________________________
--------
--------
--------
--0-----
-0XX0X--
-0XX0X-0
-Configuration Number: 295
-Duration: 0.167
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3043
-________________________________
--------
--------
--------
--0-----
-0XX---X
-0XX-0-0
-Configuration Number: 296
-Duration: 0.168
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3163
-________________________________
--------
--------
--------
--0XX-0-
-0XX0X0-
-0X00XX-
-Configuration Number: 297
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
---0XX--
-0XX00--
-00X0X-X
-Configuration Number: 298
-Duration: 0.143
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2729
-________________________________
--------
--------
--------
--0-X-X-
-0X-X-00
-0X-0X0X
-Configuration Number: 299
-Duration: 0.137
-Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 2514
-________________________________
--------
--------
--------
--0-XX--
-0X-00X-
-0X0X0X-
-Configuration Number: 300
-Duration: 0.177
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 3196
-________________________________
--------
--------
--------
--0---X0
-0XX--0X
-0XX-X00
-Configuration Number: 301
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0-0-X-
-0XXX-0-
-0XX0X0-
-Configuration Number: 302
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
----X-0-
-00-XXX-
-00-0XX-
-Configuration Number: 303
-Duration: 0.119
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2267
-________________________________
--------
--------
--------
----X---
-00XX---
-00X0-X-
-Configuration Number: 304
-Duration: 0.17
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3243
-________________________________
--------
--------
--------
--0----X
-0X00X-X
-0XX0X-0
-Configuration Number: 305
-Duration: 0.162
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2916
-________________________________
--------
--------
--------
--0-X---
-0X00XX-
-0X0XX0-
-Configuration Number: 306
-Duration: 0.207
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3877
-________________________________
--------
--------
--------
--0-X-X0
-0X-X-00
-0X-0-XX
-Configuration Number: 307
-Duration: 0.049
-Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 903
-________________________________
--------
--------
--------
--0--X--
-0X--0--
-0X-0X-X
-Configuration Number: 308
-Duration: 0.171
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3143
-________________________________
--------
--------
--------
--0X-X-0
-0X0-0XX
-0X0-XX0
-Configuration Number: 309
-Duration: 0.182
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3154
-________________________________
--------
--------
--------
--0---X-
-0XX-X0-
-0X0-0X-
-Configuration Number: 310
-Duration: 0.18
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3301
-________________________________
--------
--------
--------
--------
-00X---X
-00X---X
-Configuration Number: 311
-Duration: 0.163
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3149
-________________________________
--------
--------
--------
--00X0--
-0XX0X--
-0XXX0--
-Configuration Number: 312
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
-----0-X
-00X-XX0
-00X-0XX
-Configuration Number: 313
-Duration: 0.15
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2714
-________________________________
--------
--------
--------
--0X---0
-0X0X--X
-0X00X-X
-Configuration Number: 314
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0-XX0-
-0X-0XX0
-0X-X00X
-Configuration Number: 315
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0-----
-0X-X0--
-0X-X0X-
-Configuration Number: 316
-Duration: 0.046
-Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 897
-________________________________
--------
--------
--------
--0X--X0
-0X0X-0X
-0X0X-X0
-Configuration Number: 317
-Duration: 0.179
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3334
-________________________________
--------
--------
--------
--0--X0X
-0X--X00
-0X--0XX
-Configuration Number: 318
-Duration: 0.162
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3089
-________________________________
--------
--------
--------
--00---X
-0XX-X-0
-0X00X-X
-Configuration Number: 319
-Duration: 0.001
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
------X-
-000X-X-
-00XXX0-
-Configuration Number: 320
-Duration: 0.07
-Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1278
-________________________________
--------
--------
--------
--0-----
-0X-----
-0X--0XX
-Configuration Number: 321
-Duration: 0.164
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3151
-________________________________
--------
--------
--------
--0XX---
-0X0X0--
-0X00XX-
-Configuration Number: 322
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0---X-
-0X---0-
-0X-0XX-
-Configuration Number: 323
-Duration: 0.165
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3139
-________________________________
--------
--------
--------
--0X-0X-
-0X0-X0X
-0XX-0X0
-Configuration Number: 324
-Duration: 0.19
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3326
-________________________________
--------
--------
--------
--0-0-X0
-0X-X-0X
-0X-X-X0
-Configuration Number: 325
-Duration: 0.144
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2716
-________________________________
--------
--------
--------
--0X----
-0XX-X00
-0X0-X0X
-Configuration Number: 326
-Duration: 0.163
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2999
-________________________________
--------
--------
--------
--0X--X-
-0X0--0X
-0X0-X0X
-Configuration Number: 327
-Duration: 0.182
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3311
-________________________________
--------
--------
--------
--------
-00X-XX0
-00X-0XX
-Configuration Number: 328
-Duration: 0.166
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3091
-________________________________
--------
--------
--------
--0-X-0-
-0X-0XX-
-0X0X0X-
-Configuration Number: 329
-Duration: 0.136
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2584
-________________________________
--------
--------
--------
--0X-X--
-0XX-0--
-0X0-0X-
-Configuration Number: 330
-Duration: 0.171
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3057
-________________________________
--------
--------
--------
--0X0-X-
-0XXX-0-
-0X0X-0-
-Configuration Number: 331
-Duration: 0.081
-Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 1510
-________________________________
--------
--------
--------
--00----
-0XX---X
-0XX-0X0
-Configuration Number: 332
-Duration: 0.167
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3151
-________________________________
--------
--------
--------
--00X---
-0X0X-X-
-0XX0X0-
-Configuration Number: 333
-Duration: 0.178
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3437
-________________________________
--------
--------
--------
----XX--
-00-X0X-
-00-0XX-
-Configuration Number: 334
-Duration: 0.05
-Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 916
-________________________________
--------
--------
--------
--0-----
-0X--0--
-0X--XX-
-Configuration Number: 335
-Duration: 0.095
-Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 1742
-________________________________
--------
--------
--------
--------
-00---XX
-00X-X0X
-Configuration Number: 336
-Duration: 0.165
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3175
-________________________________
--------
--------
--------
--0-0---
-0X-X-X-
-0XX00X-
-Configuration Number: 337
-Duration: 0.146
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2755
-________________________________
--------
--------
--------
--0---X-
-0X---0-
-0XXX-0-
-Configuration Number: 338
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0---0-
-0X---X-
-0X-X-0X
-Configuration Number: 339
-Duration: 0.156
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3007
-________________________________
--------
--------
--------
--0-0---
-0X-X-X-
-0X0X0X-
-Configuration Number: 340
-Duration: 0.148
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2743
-________________________________
--------
--------
--------
--------
-00XX-0-
-00XX-X-
-Configuration Number: 341
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0--X--
-0X0-X--
-0XX-0X0
-Configuration Number: 342
-Duration: 0.174
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3143
-________________________________
--------
--------
--------
--0X----
-0X00-XX
-0XX0-X0
-Configuration Number: 343
-Duration: 0.163
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3031
-________________________________
--------
--------
--------
--00X--X
-0XX0-0X
-0XXX-00
-Configuration Number: 344
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--00X---
-0XX0--X
-0X00X-X
-Configuration Number: 345
-Duration: 0.166
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3158
-________________________________
--------
--------
--------
--0---X-
-0X00XX-
-0XXX00-
-Configuration Number: 346
-Duration: 0.168
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3099
-________________________________
--------
--------
--------
--------
-0X0-X--
-000XXX-
-Configuration Number: 347
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--------
-00---XX
-00X-XX0
-Configuration Number: 348
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
---X0---
-00X0X-X
-000XX-X
-Configuration Number: 349
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--00X--X
-0X0X0-X
-0XX0X-0
-Configuration Number: 350
-Duration: 0.176
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3333
-________________________________
--------
--------
--------
--0--0-X
-0X--XX0
-0XX-X00
-Configuration Number: 351
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0-----
-0XX-0--
-0XXX0--
-Configuration Number: 352
-Duration: 0.166
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3075
-________________________________
--------
--------
--------
---X---0
-00X---X
-000-XXX
-Configuration Number: 353
-Duration: 0.001
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0-X0-X
-0X-X0-X
-0X-0X-0
-Configuration Number: 354
-Duration: 0.084
-Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1522
-________________________________
--------
--------
--------
--0--0--
-0X-XX--
-0X0X0-X
-Configuration Number: 355
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0--X0-
-0X--0X-
-0X--X0X
-Configuration Number: 356
-Duration: 0.178
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3159
-________________________________
--------
--------
--------
--00-X--
-0XX-0X-
-0X00XX-
-Configuration Number: 357
-Duration: 0.141
-Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 2433
-________________________________
--------
--------
--------
--0--0--
-0X-XX--
-0X-0X--
-Configuration Number: 358
-Duration: 0.16
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 3077
-________________________________
--------
--------
--------
-----X--
-00-X0X-
-00-XXX0
-Configuration Number: 359
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0-X---
-0X-0---
-0XX0--X
-Configuration Number: 360
-Duration: 0.162
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3215
-________________________________
--------
--------
--------
--0X---0
-0X0X--X
-0XX0X-0
-Configuration Number: 361
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0--0--
-0X--XX-
-0XX-00X
-Configuration Number: 362
-Duration: 0.192
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3454
-________________________________
--------
--------
--------
--0---X-
-0X--X0-
-0X00XX-
-Configuration Number: 363
-Duration: 0.17
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3167
-________________________________
--------
--------
--------
--0-----
-0X0-X-X
-0X0XX-0
-Configuration Number: 364
-Duration: 0.169
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3131
-________________________________
--------
--------
--------
--0---X0
-0X--X0X
-0X-00XX
-Configuration Number: 365
-Duration: 0.17
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3167
-________________________________
--------
--------
--------
--0----X
-0X-X--0
-0X-X--0
-Configuration Number: 366
-Duration: 0.154
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2951
-________________________________
--------
--------
--------
--00-XX-
-0XX00X-
-0XX0X0-
-Configuration Number: 367
-Duration: 0.155
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2870
-________________________________
--------
--------
--------
--0-----
-0X-X0X-
-0XX0X0-
-Configuration Number: 368
-Duration: 0.143
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2683
-________________________________
--------
--------
--------
--0X0--X
-0X0X0-X
-0XXX0-0
-Configuration Number: 369
-Duration: 0.072
-Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1341
-________________________________
--------
--------
--------
--0----X
-0X-X0X0
-0X-0X0X
-Configuration Number: 370
-Duration: 0.154
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2716
-________________________________
--------
--------
--------
--0-X---
-0X-0--X
-0X-0--X
-Configuration Number: 371
-Duration: 0.16
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3095
-________________________________
--------
--------
--------
--0--XX0
-0X--X0X
-0X--00X
-Configuration Number: 372
-Duration: 0.167
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3085
-________________________________
--------
--------
--------
--0-----
-0X0XX--
-0X0X0-X
-Configuration Number: 373
-Duration: 0.174
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3197
-________________________________
--------
--------
--------
--0-X--X
-0X-0--0
-0X0X--X
-Configuration Number: 374
-Duration: 0.156
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2959
-________________________________
--------
--------
--------
--0-X---
-0X0X---
-0XX0X-0
-Configuration Number: 375
-Duration: 0.154
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2954
-________________________________
--------
--------
--------
-----0--
-00XXX--
-00X0X-X
-Configuration Number: 376
-Duration: 0.146
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2705
-________________________________
--------
--------
--------
--0--0--
-0X--XX-
-0X0X0X-
-Configuration Number: 377
-Duration: 0.091
-Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1594
-________________________________
--------
--------
--------
--0-0X--
-0XXX0--
-0X0X0X-
-Configuration Number: 378
-Duration: 0.047
-Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 857
-________________________________
--------
--------
--------
--0----X
-0X--0XX
-0X--0X0
-Configuration Number: 379
-Duration: 0.168
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3019
-________________________________
--------
--------
--------
--0--X-0
-0XX-0-X
-0XX-0X0
-Configuration Number: 380
-Duration: 0.169
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3067
-________________________________
--------
--------
--------
--00X-X-
-0X0X-0X
-0XX0-X0
-Configuration Number: 381
-Duration: 0.177
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3465
-________________________________
--------
--------
--------
---X0--X
-00XX--0
-000X-XX
-Configuration Number: 382
-Duration: 0.001
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--00--XX
-0XX0-0X
-0X0X-X0
-Configuration Number: 383
-Duration: 0.263
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 4860
-________________________________
--------
--------
--------
--------
-00-X-X-
-00X0XX-
-Configuration Number: 384
-Duration: 0.154
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2899
-________________________________
--------
--------
--------
-----X--
-00X-0-X
-000-XXX
-Configuration Number: 385
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--00---X
-0XX---0
-0XX-X-0
-Configuration Number: 386
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0--XX-
-0X--0X-
-0X-X00-
-Configuration Number: 387
-Duration: 0.229
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 4048
-________________________________
--------
--------
--------
---X0---
-000XX-X
-00XXX-0
-Configuration Number: 388
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--00--X-
-0X0--X-
-0XX-X0-
-Configuration Number: 389
-Duration: 0.001
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0X---X
-0X0--X0
-0X0-X0X
-Configuration Number: 390
-Duration: 0.189
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3395
-________________________________
--------
--------
--------
--00-X--
-0X0XX--
-0XX00X-
-Configuration Number: 391
-Duration: 0.034
-Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 643
-________________________________
--------
--------
--------
--0-XX-0
-0X0XX-0
-0XX00-X
-Configuration Number: 392
-Duration: 0.242
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 4480
-________________________________
--------
--------
--------
---X-0--
-00XX0X-
-000XXX-
-Configuration Number: 393
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
----X---
-00X0X--
-00X0X-X
-Configuration Number: 394
-Duration: 0.141
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2677
-________________________________
--------
--------
--------
--0---XX
-0X-X-00
-0X-0X0X
-Configuration Number: 395
-Duration: 0.132
-Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 2418
-________________________________
--------
--------
--------
--0--0-X
-0X-XX-0
-0XX0X-0
-Configuration Number: 396
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0-----
-0X--X--
-0XX0X0-
-Configuration Number: 397
-Duration: 0.17
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3166
-________________________________
--------
--------
--------
--0-----
-0X-X---
-0X-0-X-
-Configuration Number: 398
-Duration: 0.153
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3151
-________________________________
--------
--------
--------
---X----
-00XX-0-
-000X-XX
-Configuration Number: 399
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
---0----
-00XXX--
-00X0XX-
-Configuration Number: 400
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0X-X--
-0X0-0--
-0XXX0--
-Configuration Number: 401
-Duration: 0.175
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3147
-________________________________
--------
--------
--------
--0-0--X
-0XX0--X
-0XXX-00
-Configuration Number: 402
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0---X-
-0XX--0-
-0X00-XX
-Configuration Number: 403
-Duration: 0.168
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3167
-________________________________
--------
--------
--------
--0-0---
-0XXX---
-0X0XX0-
-Configuration Number: 404
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0---XX
-0X---00
-0X-X-0X
-Configuration Number: 405
-Duration: 0.142
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2721
-________________________________
--------
--------
--------
----X---
-00X0X--
-00XXX-0
-Configuration Number: 406
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0-X---
-0X-0---
-0X-X-0X
-Configuration Number: 407
-Duration: 0.153
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3023
-________________________________
--------
--------
--------
--00X-X-
-0X00-X-
-0XXX-0-
-Configuration Number: 408
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0-X--X
-0X-X-00
-0XX0-X0
-Configuration Number: 409
-Duration: 0.072
-Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1335
-________________________________
--------
--------
--------
--0X0---
-0XXX---
-0X0X0--
-Configuration Number: 410
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0-X-X0
-0XXX-00
-0XX0-0X
-Configuration Number: 411
-Duration: 0.097
-Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1835
-________________________________
--------
--------
--------
--00X---
-0XXX0--
-0XX00-X
-Configuration Number: 412
-Duration: 0.173
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3261
-________________________________
--------
--------
--------
--0X-X0-
-0X0-XX0
-0XX-0X0
-Configuration Number: 413
-Duration: 0.054
-Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 941
-________________________________
--------
--------
--------
--0XX-0-
-0X0X-X-
-0XX0-0-
-Configuration Number: 414
-Duration: 0.167
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3095
-________________________________
--------
--------
--------
--0-0XX-
-0XX0X0-
-0X0X0X-
-Configuration Number: 415
-Duration: 0.171
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3299
-________________________________
--------
--------
--------
-------0
-00X---X
-00X-X-X
-Configuration Number: 416
-Duration: 0.163
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3091
-________________________________
--------
--------
--------
---XX--0
-00X0--X
-000X-XX
-Configuration Number: 417
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0----X
-0X0-0-X
-0XX-X-0
-Configuration Number: 418
-Duration: 0.001
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
---X-X--
-00XX0--
-000XX--
-Configuration Number: 419
-Duration: 0.085
-Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 1621
-________________________________
--------
--------
--------
--0-X-X-
-0X0X-0-
-0XX00X-
-Configuration Number: 420
-Duration: 0.153
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2904
-________________________________
--------
--------
--------
--0-X---
-0XX0-X0
-0XX0-X0
-Configuration Number: 421
-Duration: 0.078
-Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1431
-________________________________
--------
--------
--------
--0--0X-
-0X-0XX-
-0X0XX0-
-Configuration Number: 422
-Duration: 0.131
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2283
-________________________________
--------
--------
--------
--------
-0X0-X-X
-000-X-X
-Configuration Number: 423
-Duration: 0.041
-Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 687
-________________________________
--------
--------
--------
--0X--0-
-0X0--XX
-0XX0-X0
-Configuration Number: 424
-Duration: 0.146
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2638
-________________________________
--------
--------
--------
----XX--
-00-0X--
-00-X0XX
-Configuration Number: 425
-Duration: 0.158
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3069
-________________________________
--------
--------
--------
--0-0--X
-0X-X--0
-0X-X0-X
-Configuration Number: 426
-Duration: 0.046
-Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 897
-________________________________
--------
--------
--------
--0-XX--
-0X-00X-
-0X-XX00
-Configuration Number: 427
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
----X-0-
-00XX-X-
-00X0-X-
-Configuration Number: 428
-Duration: 0.175
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 3380
-________________________________
--------
--------
--------
--0-X--X
-0X-0-X0
-0X-X0X0
-Configuration Number: 429
-Duration: 0.085
-Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1224
-________________________________
--------
--------
--------
-----0X-
-00-0XXX
-00-XX0X
-Configuration Number: 430
-Duration: 0.162
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3053
-________________________________
--------
--------
--------
--00-XX-
-0XX-0X0
-0XX-00X
-Configuration Number: 431
-Duration: 0.239
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 4197
-________________________________
--------
--------
--------
--0X----
-0X0X---
-0XX0X0-
-Configuration Number: 432
-Duration: 0.001
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
---0----
-00XX--X
-00XX-0X
-Configuration Number: 433
-Duration: 0.041
-Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 741
-________________________________
--------
--------
--------
--------
-00-X--X
-000XX-X
-Configuration Number: 434
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0--X--
-0X-XX-0
-0X-00-X
-Configuration Number: 435
-Duration: 0.173
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3303
-________________________________
--------
--------
--------
--0X-X--
-0X0X0--
-0XX0X-0
-Configuration Number: 436
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0--0X-
-0X-XX0-
-0X-X00X
-Configuration Number: 437
-Duration: 0.163
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3011
-________________________________
--------
--------
--------
--0X-0X-
-0X0-X0X
-0X0-XX0
-Configuration Number: 438
-Duration: 0.202
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3558
-________________________________
--------
--------
--------
--0-----
-0X0--XX
-0XX0-X0
-Configuration Number: 439
-Duration: 0.161
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3015
-________________________________
--------
--------
--------
-----X0-
-00XX0X-
-00XX0X-
-Configuration Number: 440
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
-----X0-
-00-X0XX
-00-XX0X
-Configuration Number: 441
-Duration: 0.152
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2717
-________________________________
--------
--------
--------
--0--X--
-0XX-0X0
-0XX-00X
-Configuration Number: 442
-Duration: 0.18
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3148
-________________________________
--------
--------
--------
--0-0X-0
-0X-X0-X
-0X-XX-0
-Configuration Number: 443
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0--0-X
-0X-0X-X
-0X-X0X0
-Configuration Number: 444
-Duration: 0.069
-Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1227
-________________________________
--------
--------
--------
--0-X0-X
-0X-0X-0
-0X-0X-X
-Configuration Number: 445
-Duration: 0.169
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3237
-________________________________
--------
--------
--------
--0-X---
-0XX00-X
-0X0XX-0
-Configuration Number: 446
-Duration: 0.142
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2803
-________________________________
--------
--------
--------
--00--X-
-0XX--0X
-0XX0-X0
-Configuration Number: 447
-Duration: 0.048
-Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 857
-________________________________
--------
--------
--------
--0X---X
-0X0--X0
-0X0X-X0
-Configuration Number: 448
-Duration: 0.166
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3083
-________________________________
--------
--------
--------
-----X--
-00X-0X-
-00X-XX0
-Configuration Number: 449
-Duration: 0.001
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0-----
-0X--X--
-0X0-0XX
-Configuration Number: 450
-Duration: 0.169
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3151
-________________________________
--------
--------
--------
---0XX-0
-00X0X-X
-00XX0-X
-Configuration Number: 451
-Duration: 0.134
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2521
-________________________________
--------
--------
--------
--0-----
-0X-X-0X
-0X-X00X
-Configuration Number: 452
-Duration: 0.157
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2815
-________________________________
--------
--------
--------
--0X-0--
-0X0-X-X
-0X0X0-X
-Configuration Number: 453
-Duration: 0.172
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3016
-________________________________
--------
--------
--------
-----X0-
-00X-0XX
-00X-0XX
-Configuration Number: 454
-Duration: 0.191
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3407
-________________________________
--------
--------
--------
--0--X--
-0XX-0X0
-0XX-0X0
-Configuration Number: 455
-Duration: 0.182
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3046
-________________________________
--------
--------
--------
--00----
-0XX--X-
-0X0-XX0
-Configuration Number: 456
-Duration: 0.165
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3081
-________________________________
--------
--------
--------
--0---0-
-0XX--0-
-0XX--X-
-Configuration Number: 457
-Duration: 0.166
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3019
-________________________________
--------
--------
--------
--0--X--
-0X--0-X
-0X0-0XX
-Configuration Number: 458
-Duration: 0.174
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3056
-________________________________
--------
--------
--------
--0XX---
-0X00--X
-0XX0-0X
-Configuration Number: 459
-Duration: 0.156
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3011
-________________________________
--------
--------
--------
--0--0X-
-0X--X0X
-0XX-00X
-Configuration Number: 460
-Duration: 0.081
-Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 1289
-________________________________
--------
--------
--------
--0---X-
-0X---X0
-0XX0-0X
-Configuration Number: 461
-Duration: 0.157
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3071
-________________________________
--------
--------
--------
--0X--XX
-0XX--00
-0X0--0X
-Configuration Number: 462
-Duration: 0.156
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3057
-________________________________
--------
--------
--------
--0-X--X
-0X-0-X0
-0X-00XX
-Configuration Number: 463
-Duration: 0.153
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2812
-________________________________
--------
--------
--------
----X-0X
-00-X-X0
-00-0XXX
-Configuration Number: 464
-Duration: 0.133
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2624
-________________________________
--------
--------
--------
--0--X--
-0X--X0-
-0X-X00X
-Configuration Number: 465
-Duration: 0.171
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3139
-________________________________
--------
--------
--------
--0---0-
-0X--XX-
-0X00XX-
-Configuration Number: 466
-Duration: 0.18
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3279
-________________________________
--------
--------
--------
--0---X-
-0X0--X-
-0XX--0-
-Configuration Number: 467
-Duration: 0.159
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2965
-________________________________
--------
--------
--------
--00-X-X
-0X0-X-X
-0XX-0-0
-Configuration Number: 468
-Duration: 0.168
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3067
-________________________________
--------
--------
--------
--0X-0--
-0X0-X-X
-0XX00-X
-Configuration Number: 469
-Duration: 0.179
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3054
-________________________________
--------
--------
--------
----0X--
-00XX0X-
-00XX0X-
-Configuration Number: 470
-Duration: 0.151
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2737
-________________________________
--------
--------
--------
---0-X--
-0XX00-X
-00X0X-X
-Configuration Number: 471
-Duration: 0.183
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3174
-________________________________
--------
--------
--------
--0X---X
-0X0--0X
-0X0X-X0
-Configuration Number: 472
-Duration: 0.165
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3075
-________________________________
--------
--------
--------
--0X----
-0X0XX0-
-0X0XX0-
-Configuration Number: 473
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--00-X--
-0X0-X--
-0XXX0--
-Configuration Number: 474
-Duration: 0.047
-Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 849
-________________________________
--------
--------
--------
--0-----
-0X--X--
-0X--X-0
-Configuration Number: 475
-Duration: 0.155
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2935
-________________________________
--------
--------
--------
--0----X
-0XX-X-0
-0X0-0-X
-Configuration Number: 476
-Duration: 0.176
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3278
-________________________________
--------
--------
--------
--0X--X0
-0XX0-0X
-0X00-XX
-Configuration Number: 477
-Duration: 0.163
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3132
-________________________________
--------
--------
--------
--0XX---
-0XX00--
-0X00X-X
-Configuration Number: 478
-Duration: 0.17
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 3301
-________________________________
--------
--------
--------
----0--X
-00-X-XX
-00-X-X0
-Configuration Number: 479
-Duration: 0.093
-Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 1761
-________________________________
--------
--------
--------
--0XX--0
-0X0X0-X
-0XX0X-0
-Configuration Number: 480
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
----X-0-
-0X00-XX
-000X-XX
-Configuration Number: 481
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
---0-0-X
-00X-X-X
-00XXX-0
-Configuration Number: 482
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--0---0-
-0X-X-X-
-0X-X-0-
-Configuration Number: 483
-Duration: 0.158
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2981
-________________________________
--------
--------
--------
-----0X-
-00-XX0X
-00-0XXX
-Configuration Number: 484
-Duration: 0.12
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2327
-________________________________
--------
--------
--------
---0-X--
-00X-X--
-00XX0X-
-Configuration Number: 485
-Duration: 0.045
-Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 819
-________________________________
--------
--------
--------
--00X---
-0X0X--X
-0XX0-X0
-Configuration Number: 486
-Duration: 0.135
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2658
-________________________________
--------
--------
--------
--0--X--
-0X-X0--
-0X-0X--
-Configuration Number: 487
-Duration: 0.164
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3179
-________________________________
--------
--------
--------
--0-X---
-0X-X-X-
-0X-0-0-
-Configuration Number: 488
-Duration: 0.044
-Number Of Turn Until Some Win: -4
-Number Of Nodes Calculated: 849
-________________________________
--------
--------
--------
--00----
-0XXX---
-0XXX-00
-Configuration Number: 489
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
-________________________________
--------
--------
--------
--------
-00-XXX0
-00-XX0X
-Configuration Number: 490
-Duration: 0.169
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3204
-________________________________
--------
--------
--------
--0X----
-0XX--0-
-0X0-X0X
-Configuration Number: 491
-Duration: 0.147
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2714
-________________________________
--------
--------
--------
--0X-0-X
-0XX-X00
-0X0-0XX
-Configuration Number: 492
-Duration: 0.162
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2701
-________________________________
--------
--------
--------
--0---XX
-0X---X0
-0XX--00
-Configuration Number: 493
-Duration: 0.215
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 4041
-________________________________
--------
--------
--------
--0-X---
-0X00XX-
-0X0X0X-
-Configuration Number: 494
-Duration: 0.03
-Number Of Turn Until Some Win: 3
-Number Of Nodes Calculated: 586
-________________________________
--------
--------
--------
--0----X
-0X--X-0
-0XX-0X0
-Configuration Number: 495
-Duration: 0.168
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3139
-________________________________
--------
--------
--------
--0-----
-0X--X-0
-0XX-0-X
-Configuration Number: 496
-Duration: 0.163
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3147
-________________________________
--------
--------
--------
--00-X-X
-0X0-X0X
-0XX-0X0
-Configuration Number: 497
-Duration: 0.152
-Number Of Turn Until Some Win: 5
-Number Of Nodes Calculated: 2732
-________________________________
--------
--------
--------
--0X0-X-
-0XX0-0-
-0X0X-X-
-Configuration Number: 498
-Duration: 0.165
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 2985
-________________________________
--------
--------
--------
--00----
-0XX---X
-0X0-0XX
-Configuration Number: 499
-Duration: 0.168
-Number Of Turn Until Some Win: -6
-Number Of Nodes Calculated: 3055
-________________________________
--------
--------
--------
------X-
-00--X0X
-00-XXX0
-Configuration Number: 500
-Duration: 0
-Number Of Turn Until Some Win: 1
-Number Of Nodes Calculated: 1
 ________________________________
