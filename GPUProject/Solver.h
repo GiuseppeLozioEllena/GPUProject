@@ -12,6 +12,7 @@ public:
 	int Pvs(Configuration board, int depth, int alpha, int beta);
 	unsigned long long getNodeCount();
 	void ResetNodeCount();
+	int FirstSevenMove(Configuration configuration);
 
 private:
 	unsigned long long nodeCount;

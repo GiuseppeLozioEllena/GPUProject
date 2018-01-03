@@ -18,7 +18,7 @@ int main(int argc, char** argv) {
 	ofstream writeInFileT;
 	writeInFileB.open("benchmarkerCpu.txt");
 	writeInFileT.open("benchmarkerTimeCpu.txt");
-
+	int solution = 0;
 	Solver solver=Solver();
 
 	if (testFile.is_open()) {
@@ -31,9 +31,14 @@ int main(int argc, char** argv) {
 			start = clock();
 			Configuration c = Configuration(line);
 			writeInFileB << c;
-			int solution = solver.Pvs(c, 6, numeric_limits<int>::min(), numeric_limits<int>::max());
+			solution = solver.FirstSevenMove(c);
+		
+			if (solution == 0)
+			{		
+			solution = solver.Pvs(c, 6, numeric_limits<int>::min(), numeric_limits<int>::max());
 			if (!(solution % 2 == 0))
 				solution = -solution;
+			}
 			duration = (clock() - start) / (double)CLOCKS_PER_SEC;
 			writeInFileT <<i<<" "<<duration << endl;
 			writeInFileB << "Configuration Number: " << i << endl;

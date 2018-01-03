@@ -6,6 +6,27 @@ Solver::Solver()
 {
 	nodeCount=0;
 }
+int Solver::FirstSevenMove(Configuration configuration)
+{
+	char nextPlayer = configuration.mLastmove.player == 'X' ? '0' : 'X';
+	vector<lastMove> moves = configuration.GenerateNextMoves(nextPlayer);
+	for (int i = 0; i < moves.size(); i++) 
+	{
+		
+		Configuration c = Configuration(configuration.getBoard(), moves[i], configuration.getNMoves(), configuration.NumberStartMoves());
+		bool isWinningMove = c.isWinningMove();
+		if ((isWinningMove && c.mLastmove.player == '0')) {
+			nodeCount=i+1;
+			return -1;
+		}
+
+		if ((isWinningMove && c.mLastmove.player == 'X')) {
+			nodeCount = i+1;
+			return 1;
+		}
+	}
+	return 0;
+}
 
 int Solver::Pvs(Configuration configuration,int depth, int alpha, int beta) 
 {
