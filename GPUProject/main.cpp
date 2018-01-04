@@ -5,6 +5,7 @@
 #include "Configuration.h"
 #include "Solver.h"
 #include <ctime>
+#include <chrono>
 
 using namespace std;
 
@@ -12,13 +13,12 @@ int main(int argc, char** argv) {
 
 	clock_t total_start;
 	string line;
-	clock_t start;
-	double duration;
+
 	ifstream testFile("configurations.txt");
 	ofstream writeInFileB;
 	ofstream writeInFileT;
 	writeInFileB.open("benchmarkerCpu.txt");
-	//writeInFileT.open("benchmarkerTimeCpu.txt");
+	writeInFileT.open("benchmarkerTimeCpu.txt");
 	int solution = 0;
 	Solver solver=Solver();
 
@@ -32,7 +32,7 @@ int main(int argc, char** argv) {
 			}*/		
 			Configuration c = Configuration(line);
 			writeInFileB << c;
-			start = clock();
+			auto s = chrono::steady_clock::now();
 			solution = solver.FirstSevenMove(c);		
 			if (solution == 0)
 			{		
@@ -40,10 +40,11 @@ int main(int argc, char** argv) {
 			if (!(solution % 2 == 0))
 				solution = -solution;
 			}
-			duration = (clock() - start) / (double)CLOCKS_PER_SEC;
-			//writeInFileT <<i<<" "<<duration << endl;
+			auto e = chrono::steady_clock::now();
+			auto elapsed = chrono::duration_cast<std::chrono::milliseconds>(e - s);
+			writeInFileT <<i<<" "<< elapsed.count()<<" ms"<< endl;
 			writeInFileB << "Configuration Number: " << i << endl;
-			writeInFileB << "Duration: " << duration << endl;
+			writeInFileB << "Duration: " << elapsed.count()<<" ms"<< endl;
 			writeInFileB << "Number Of Turn Until Some Win: " << solution << endl;
 			//writeInFileB << "Number Of Nodes Calculated: " << solver.getNodeCount() << endl;
 			writeInFileB << "________________________________" << endl;
@@ -55,7 +56,7 @@ int main(int argc, char** argv) {
 		}
 		testFile.close();
 		writeInFileB.close();
-		//writeInFileT.close();
+		writeInFileT.close();
 	}
 	cout << ((clock() - total_start) / (double)CLOCKS_PER_SEC) << endl;
 	system("pause");
