@@ -25,17 +25,12 @@ int main(int argc, char** argv) {
 	if (testFile.is_open()) {
 		int i = 0;
 		total_start = clock();
-		while (getline(testFile, line)) {
-			/*if (i != 53) {
-				i++;
-				continue;
-			}*/		
+		while (getline(testFile, line)) {	
 			Configuration c = Configuration(line);
 			writeInFileB << c;
 			auto s = chrono::steady_clock::now();
 			solution = solver.FirstSevenMove(c);		
-			if (solution == 0)
-			{		
+			if (solution == 0) {		
 			solution = solver.Pvs(c, 10, numeric_limits<int>::min(), numeric_limits<int>::max());
 			if (!(solution % 2 == 0))
 				solution = -solution;
@@ -44,11 +39,9 @@ int main(int argc, char** argv) {
 			auto elapsed = chrono::duration_cast<std::chrono::milliseconds>(e - s);
 			writeInFileT <<i<<" "<< elapsed.count()<<" ms"<< endl;
 			writeInFileB << "Configuration Number: " << i << endl;
-			writeInFileB << "Duration: " << elapsed.count()<<" ms"<< endl;
+			writeInFileB << "Time For Solve: " << elapsed.count()<<" ms"<< endl;
 			writeInFileB << "Number Of Turn Until Some Win: " << solution << endl;
-			//writeInFileB << "Number Of Nodes Calculated: " << solver.getNodeCount() << endl;
 			writeInFileB << "________________________________" << endl;
-			solver.ResetNodeCount();
 			i++;
 			if (i >250)
 				break;

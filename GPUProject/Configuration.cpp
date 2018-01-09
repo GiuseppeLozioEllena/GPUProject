@@ -7,11 +7,11 @@ Configuration::Configuration(string boardConfiguration)
 	Configuration::SetupBoard(boardConfiguration);
 
 	mLastmove = lastMove(-1, -1, '0', 0);
-	for each (char c in boardConfiguration)
-	{
+	for each (char c in boardConfiguration) {
 		if (c == 'X' || c == '0')
 			NumberOfMoves++;
 	}
+
 	NumberOfStartMoves = NumberOfMoves;
 }
 
@@ -36,7 +36,6 @@ void Configuration::SetupBoard(string boardConfiguration) {
 }
 
 bool Configuration::isWinningMove() {
-	//cout << mLastmove.row << "   " << mLastmove.column << endl;
 	if (mLastmove.row == -1)
 		return false;
 	int counter = 0;
@@ -154,7 +153,6 @@ int Configuration::ValutateMove(lastMove mLastmove, int pawnInARow) {
 	
 	value += _value;
 	_value = 0;
-	//value += (mLastmove.row<4)?mLastmove.row:3;
 	counter = 0;
 	yourMove = false;
 	//check right diagonal

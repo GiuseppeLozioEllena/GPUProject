@@ -2,10 +2,7 @@
 
 
 
-Solver::Solver()
-{
-	nodeCount=0;
-}
+Solver::Solver() {}
 int Solver::FirstSevenMove(Configuration configuration)
 {
 	char nextPlayer = configuration.mLastmove.player == 'X' ? '0' : 'X';
@@ -16,12 +13,10 @@ int Solver::FirstSevenMove(Configuration configuration)
 		Configuration c = Configuration(configuration.getBoard(), moves[i], configuration.getNMoves(), configuration.NumberStartMoves());
 		bool isWinningMove = c.isWinningMove();
 		if ((isWinningMove && c.mLastmove.player == '0')) {
-			nodeCount=i+1;
 			return -1;
 		}
 
 		if ((isWinningMove && c.mLastmove.player == 'X')) {
-			nodeCount = i+1;
 			return 1;
 		}
 	}
@@ -30,8 +25,6 @@ int Solver::FirstSevenMove(Configuration configuration)
 
 int Solver::Pvs(Configuration configuration,int depth, int alpha, int beta) 
 {
-	
-	nodeCount++;
 	bool isWinningMove = configuration.isWinningMove();
 	if ((isWinningMove && configuration.mLastmove.player == '0') || depth == 0) {
 		return -(configuration.getNMoves() - configuration.NumberStartMoves());
@@ -51,8 +44,6 @@ int Solver::Pvs(Configuration configuration,int depth, int alpha, int beta)
 		int	score;
 		Configuration c = Configuration(configuration.getBoard(), moves[i], configuration.getNMoves(),configuration.NumberStartMoves());
 		if (i == 0) {
-			//if(depth==7)
-			//	cout << c << endl;
 			score = -Pvs(c, depth - 1, -beta, -alpha);
 		}
 		else
@@ -61,10 +52,7 @@ int Solver::Pvs(Configuration configuration,int depth, int alpha, int beta)
 			if (alpha < score < beta)
 				score = -Pvs(c, depth - 1, -beta, -score);
 		}
-		/*if (depth == 7 && i==0) {
-			cout << c << endl;
-			cout <<  moves[i].value << endl;
-		}*/
+
 		alpha = max(alpha, score);
 		if (alpha >= beta) {
 			c.deleteBoard();
@@ -76,16 +64,6 @@ int Solver::Pvs(Configuration configuration,int depth, int alpha, int beta)
 	moves.shrink_to_fit();
 
 	return alpha;
-}
-
-unsigned long long Solver::getNodeCount()
-{
-	return nodeCount;
-}
-
-void Solver::ResetNodeCount()
-{
-	nodeCount=0;
 }
 
 Solver::~Solver()
