@@ -1,0 +1,2510 @@
+-------
+-------
+-------
+-0-X-0X
+0X-0-XX
+0X-0-X0
+Configuration Number: 0
+Time For Solve : 1900 ms
+Number Of Turn Until Some Win: -6
+________________________________
+-------
+-------
+-------
+-0----X
+0X-0--X
+0X-0XX0
+Configuration Number: 1
+Time For Solve : 9074 ms
+Number Of Turn Until Some Win: 9
+________________________________
+-------
+-------
+-------
+-0--XX0
+0XX-00X
+0XX-00X
+Configuration Number: 2
+Time For Solve : 3928 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+--0----
+00XX-X-
+00XXX0-
+Configuration Number: 3
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0-----
+0XXX0--
+0X00XX-
+Configuration Number: 4
+Time For Solve : 4253 ms
+Number Of Turn Until Some Win: -8
+________________________________
+-------
+-------
+-------
+---X0X0
+00-0XXX
+00-XX0X
+Configuration Number: 5
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0XX--0
+0XXX--0
+0X00--X
+Configuration Number: 6
+Time For Solve : 2400 ms
+Number Of Turn Until Some Win: 3
+________________________________
+-------
+-------
+-------
+-0X-X--
+0X0-X--
+0XX-0-0
+Configuration Number: 7
+Time For Solve : 607 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+-0--X--
+0X--0-X
+0X0X0-X
+Configuration Number: 8
+Time For Solve : 16098 ms
+Number Of Turn Until Some Win: -10
+________________________________
+-------
+-------
+-------
+-0X--X-
+0X0--X-
+0X0X-0-
+Configuration Number: 9
+Time For Solve : 9795 ms
+Number Of Turn Until Some Win: -10
+________________________________
+-------
+-------
+-------
+--X----
+00X0-X-
+000X-XX
+Configuration Number: 10
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0---X0
+0X-X-X0
+0XX0-0X
+Configuration Number: 11
+Time For Solve : 3842 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0--X0-
+0XX-0X-
+0XX-X00
+Configuration Number: 12
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-00----
+0XX----
+0XX----
+Configuration Number: 13
+Time For Solve : 13758 ms
+Number Of Turn Until Some Win: -10
+________________________________
+-------
+-------
+-------
+-00-XX-
+0XX-00X
+0X0-0XX
+Configuration Number: 14
+Time For Solve : 9475 ms
+Number Of Turn Until Some Win: 9
+________________________________
+-------
+-------
+-------
+-0XX0--
+0X00XX-
+0XX00X-
+Configuration Number: 15
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0---X0
+0X-0-XX
+0XX0-0X
+Configuration Number: 16
+Time For Solve : 4919 ms
+Number Of Turn Until Some Win: -8
+________________________________
+-------
+-------
+-------
+-0--00-
+0X--XX-
+0X0-XX-
+Configuration Number: 17
+Time For Solve : 2663 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+----0--
+0X0XX--
+000XX-X
+Configuration Number: 18
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+---X---
+00-0-XX
+00-XXX0
+Configuration Number: 19
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0----X
+0X0X-X0
+0X00-XX
+Configuration Number: 20
+Time For Solve : 672 ms
+Number Of Turn Until Some Win: -6
+________________________________
+-------
+-------
+-------
+-0X---0
+0X0--XX
+0XX0-X0
+Configuration Number: 21
+Time For Solve : 3897 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-00-X--
+0XX0X--
+0X0X0X-
+Configuration Number: 22
+Time For Solve : 142 ms
+Number Of Turn Until Some Win: 3
+________________________________
+-------
+-------
+-------
+-0--X--
+0X-X0--
+0XXX00-
+Configuration Number: 23
+Time For Solve : 1613 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+-0--0X-
+0X-0XX-
+0X-0X0X
+Configuration Number: 24
+Time For Solve : 2436 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0X----
+0XX---0
+0X0XX-0
+Configuration Number: 25
+Time For Solve : 3563 ms
+Number Of Turn Until Some Win: 3
+________________________________
+-------
+-------
+-------
+-0X----
+0XX-0--
+0X0X0X-
+Configuration Number: 26
+Time For Solve : 2396 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+--0-X--
+00XX0--
+00XXX--
+Configuration Number: 27
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+------X
+000X--X
+00XXX-0
+Configuration Number: 28
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0-X---
+0X-0-X-
+0X0X-0X
+Configuration Number: 29
+Time For Solve : 2678 ms
+Number Of Turn Until Some Win: -8
+________________________________
+-------
+-------
+-------
+-0-----
+0X0X-X-
+0XX00X-
+Configuration Number: 30
+Time For Solve : 2514 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0X0X--
+0XXX0--
+0X0X0--
+Configuration Number: 31
+Time For Solve : 465 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+-0-X--0
+0XXX--0
+0X00X-X
+Configuration Number: 32
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0X----
+0XX0---
+0X0XX-0
+Configuration Number: 33
+Time For Solve : 8924 ms
+Number Of Turn Until Some Win: 9
+________________________________
+-------
+-------
+-------
+--X-0--
+00X-XX0
+000-XXX
+Configuration Number: 34
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0-X---
+0XX00--
+0X0XX--
+Configuration Number: 35
+Time For Solve : 2279 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+-0X----
+0XX--0-
+0X0X0X-
+Configuration Number: 36
+Time For Solve : 2749 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+----0-X
+00--X-X
+00XXX-0
+Configuration Number: 37
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0X--0-
+0X0X-X-
+0XX0-X0
+Configuration Number: 38
+Time For Solve : 3617 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+----00-
+00--XXX
+00--XXX
+Configuration Number: 39
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0-X-0X
+0X-0XX0
+0X-X00X
+Configuration Number: 40
+Time For Solve : 12508 ms
+Number Of Turn Until Some Win: -10
+________________________________
+-------
+-------
+-------
+-----0-
+00XX-X-
+00XXX0-
+Configuration Number: 41
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-------
+000XX--
+00XXX--
+Configuration Number: 42
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0X0--X
+0X00X-X
+0XXX0-0
+Configuration Number: 43
+Time For Solve : 9942 ms
+Number Of Turn Until Some Win: -10
+________________________________
+-------
+-------
+-------
+-00-XX-
+0X0-0X-
+0XX-X0-
+Configuration Number: 44
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0-X---
+0XX0--X
+0X00--X
+Configuration Number: 45
+Time For Solve : 8234 ms
+Number Of Turn Until Some Win: 9
+________________________________
+-------
+-------
+-------
+--0X0-X
+00XXX-0
+00X0X-X
+Configuration Number: 46
+Time For Solve : 97 ms
+Number Of Turn Until Some Win: 3
+________________________________
+-------
+-------
+-------
+-0X-X--
+0X0X0--
+0XXX0-0
+Configuration Number: 47
+Time For Solve : 4240 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0--0X-
+0X-XX0-
+0X-0X0X
+Configuration Number: 48
+Time For Solve : 15407 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+-0-0X-X
+0XXX0-0
+0XX00-X
+Configuration Number: 49
+Time For Solve : 9853 ms
+Number Of Turn Until Some Win: -10
+________________________________
+-------
+-------
+-------
+-00----
+0XX---X
+0XXX-00
+Configuration Number: 50
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-----X-
+00--XX-
+00-XX0-
+Configuration Number: 51
+Time For Solve : 1410 ms
+Number Of Turn Until Some Win: -6
+________________________________
+-------
+-------
+-------
+-0-X0--
+0X-0X--
+0X-0XX-
+Configuration Number: 52
+Time For Solve : 4087 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+----0-X
+00-XX-X
+00-XX-0
+Configuration Number: 53
+Time For Solve : 2435 ms
+Number Of Turn Until Some Win: 3
+________________________________
+-------
+-------
+-------
+-0X---X
+0X0--X0
+0XX-00X
+Configuration Number: 54
+Time For Solve : 4743 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0X--0-
+0X0X-X-
+0X0X-0X
+Configuration Number: 55
+Time For Solve : 10976 ms
+Number Of Turn Until Some Win: -10
+________________________________
+-------
+-------
+-------
+-0-0-0-
+0X-X-X-
+0X-X-X0
+Configuration Number: 56
+Time For Solve : 3143 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+--X--0-
+00X-XX0
+000-XXX
+Configuration Number: 57
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+--0----
+0XXX-0-
+00X0-XX
+Configuration Number: 58
+Time For Solve : 41226 ms
+Number Of Turn Until Some Win: -10
+________________________________
+-------
+-------
+-------
+-0--XX-
+0X--X00
+0X-X00X
+Configuration Number: 59
+Time For Solve : 2807 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+-0-0---
+0XXX---
+0XX0-0X
+Configuration Number: 60
+Time For Solve : 1147 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+-----0-
+00X-XX-
+00X-0XX
+Configuration Number: 61
+Time For Solve : 1543 ms
+Number Of Turn Until Some Win: -6
+________________________________
+-------
+-------
+-------
+-0X--0X
+0X0-XX0
+0XX-X00
+Configuration Number: 62
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0---XX
+0X-X-00
+0X-00XX
+Configuration Number: 63
+Time For Solve : 3553 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0X--X-
+0XX0-0-
+0X0X-X0
+Configuration Number: 64
+Time For Solve : 3945 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0--X--
+0XX0X0-
+0X0X0X-
+Configuration Number: 65
+Time For Solve : 1530 ms
+Number Of Turn Until Some Win: 3
+________________________________
+-------
+-------
+-------
+-0-X0--
+0X-X0X-
+0X-0XX0
+Configuration Number: 66
+Time For Solve : 1293 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+-0-X-0-
+0X-0XX-
+0X-0X0X
+Configuration Number: 67
+Time For Solve : 1864 ms
+Number Of Turn Until Some Win: 3
+________________________________
+-------
+-------
+-------
+--0XX--
+00XX0--
+00X0XX-
+Configuration Number: 68
+Time For Solve : 39 ms
+Number Of Turn Until Some Win: 3
+________________________________
+-------
+-------
+-------
+-00---X
+0XX--0X
+0XXX-00
+Configuration Number: 69
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+--0X---
+00XX---
+00X0X-X
+Configuration Number: 70
+Time For Solve : 21 ms
+Number Of Turn Until Some Win: 3
+________________________________
+-------
+-------
+-------
+-0-XX--
+0XX00--
+0X0XX0-
+Configuration Number: 71
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0X--X-
+0X00-X-
+0XXX00-
+Configuration Number: 72
+Time For Solve : 15984 ms
+Number Of Turn Until Some Win: -10
+________________________________
+-------
+-------
+-------
+-0---X-
+0X--X0X
+0X--0X0
+Configuration Number: 73
+Time For Solve : 16027 ms
+Number Of Turn Until Some Win: -10
+________________________________
+-------
+-------
+-------
+-00--XX
+0XX-00X
+0X0-XX0
+Configuration Number: 74
+Time For Solve : 2827 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+-0----X
+0X-X--0
+0XX00-X
+Configuration Number: 75
+Time For Solve : 9099 ms
+Number Of Turn Until Some Win: 9
+________________________________
+-------
+-------
+-------
+---0-0X
+00-X-XX
+00-XXX0
+Configuration Number: 76
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0---X-
+0XXX-00
+0XX0-X0
+Configuration Number: 77
+Time For Solve : 2970 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+------X
+00-XX-0
+00X0X-X
+Configuration Number: 78
+Time For Solve : 3017 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0-----
+0XX-X-0
+0XXX0-0
+Configuration Number: 79
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0--X--
+0XX-0--
+0XX0X0-
+Configuration Number: 80
+Time For Solve : 1793 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+-0--X--
+0X--00X
+0X--X0X
+Configuration Number: 81
+Time For Solve : 10494 ms
+Number Of Turn Until Some Win: 9
+________________________________
+-------
+-------
+-------
+-0-X--X
+0X-0X-0
+0X-X00X
+Configuration Number: 82
+Time For Solve : 1718 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+----XX-
+00-X0X-
+00-XX0-
+Configuration Number: 83
+Time For Solve : 1546 ms
+Number Of Turn Until Some Win: 3
+________________________________
+-------
+-------
+-------
+-0-----
+0X---X-
+0X0-XX0
+Configuration Number: 84
+Time For Solve : 9916 ms
+Number Of Turn Until Some Win: -10
+________________________________
+-------
+-------
+-------
+-00-X-X
+0XX-00X
+0XX-X00
+Configuration Number: 85
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0-0--X
+0X-X--0
+0XX0--X
+Configuration Number: 86
+Time For Solve : 1869 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0-----
+0XX--0-
+0X0-XX-
+Configuration Number: 87
+Time For Solve : 11251 ms
+Number Of Turn Until Some Win: 9
+________________________________
+-------
+-------
+-------
+-0----X
+0X-X00X
+0X-0XX0
+Configuration Number: 88
+Time For Solve : 10094 ms
+Number Of Turn Until Some Win: 9
+________________________________
+-------
+-------
+-------
+-0--XX-
+0X-00X-
+0X-XX00
+Configuration Number: 89
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0--0X-
+0X--0XX
+0X-XX00
+Configuration Number: 90
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0----0
+0XX---X
+0X0XX-0
+Configuration Number: 91
+Time For Solve : 5120 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+------X
+00X--X0
+00XX-X0
+Configuration Number: 92
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0-0-XX
+0X-00XX
+0X-XX00
+Configuration Number: 93
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0-0---
+0X-XX--
+0X-XX00
+Configuration Number: 94
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0----X
+0X-XX-0
+0X-X0-0
+Configuration Number: 95
+Time For Solve : 12753 ms
+Number Of Turn Until Some Win: -10
+________________________________
+-------
+-------
+-------
+-0--0X-
+0X0-XX-
+0XX-00X
+Configuration Number: 96
+Time For Solve : 2469 ms
+Number Of Turn Until Some Win: 3
+________________________________
+-------
+-------
+-------
+-0----0
+0X-X-0X
+0X-X-X0
+Configuration Number: 97
+Time For Solve : 10339 ms
+Number Of Turn Until Some Win: 9
+________________________________
+-------
+-------
+-------
+-------
+00-XX--
+00-XX0X
+Configuration Number: 98
+Time For Solve : 5324 ms
+Number Of Turn Until Some Win: -8
+________________________________
+-------
+-------
+-------
+-0---X-
+0X0X-0X
+0XXX-00
+Configuration Number: 99
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0-X--X
+0X-0--0
+0X-XX-0
+Configuration Number: 100
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+--X--X0
+00X--0X
+000-XXX
+Configuration Number: 101
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0---X0
+0X---0X
+0X--0XX
+Configuration Number: 102
+Time For Solve : 8726 ms
+Number Of Turn Until Some Win: -10
+________________________________
+-------
+-------
+-------
+-0--X-0
+0X--0-X
+0XX-X-0
+Configuration Number: 103
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+--0X---
+00X0XX-
+00XXX0-
+Configuration Number: 104
+Time For Solve : 87 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+-0---X-
+0X-0-X-
+0XXX00-
+Configuration Number: 105
+Time For Solve : 2883 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0-0X--
+0XX0X--
+0X0X0X-
+Configuration Number: 106
+Time For Solve : 370 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+-0-----
+0X0--X-
+0XX--0X
+Configuration Number: 107
+Time For Solve : 10091 ms
+Number Of Turn Until Some Win: 9
+________________________________
+-------
+-------
+-------
+-0--XX-
+0X-X00-
+0X-0XX0
+Configuration Number: 108
+Time For Solve : 4318 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-------
+00-XXX0
+00-XXX0
+Configuration Number: 109
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+---0---
+00-X--X
+00-X-XX
+Configuration Number: 110
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0---X-
+0X-X-0-
+0X0XX0-
+Configuration Number: 111
+Time For Solve : 4751 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0X-X0-
+0XX00X-
+0X0XX0-
+Configuration Number: 112
+Time For Solve : 1571 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+-0---X-
+0X-XX0-
+0X-X00-
+Configuration Number: 113
+Time For Solve : 2794 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+--X-0-X
+000-X-X
+00X-XX0
+Configuration Number: 114
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0X--0-
+0X0--X-
+0X0X-X-
+Configuration Number: 115
+Time For Solve : 4552 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+-0-X-X0
+0X-0-X0
+0X-X-0X
+Configuration Number: 116
+Time For Solve : 5476 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0X--XX
+0XX--00
+0X0--X0
+Configuration Number: 117
+Time For Solve : 12929 ms
+Number Of Turn Until Some Win: 9
+________________________________
+-------
+-------
+-------
+-0XX---
+0X00X--
+0X0XX-0
+Configuration Number: 118
+Time For Solve : 5930 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-------
+00XX---
+00XX0X-
+Configuration Number: 119
+Time For Solve : 3991 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0-X---
+0X-X00X
+0X-00XX
+Configuration Number: 120
+Time For Solve : 855 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+-0--0X-
+0X--XX-
+0X-0X0-
+Configuration Number: 121
+Time For Solve : 4028 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0-X---
+0X-X0X0
+0X-00XX
+Configuration Number: 122
+Time For Solve : 1222 ms
+Number Of Turn Until Some Win: 3
+________________________________
+-------
+-------
+-------
+-0X0--X
+0XX00-X
+0X0XX-0
+Configuration Number: 123
+Time For Solve : 2315 ms
+Number Of Turn Until Some Win: 3
+________________________________
+-------
+-------
+-------
+-0X----
+0XX0---
+0X0X---
+Configuration Number: 124
+Time For Solve : 8307 ms
+Number Of Turn Until Some Win: 9
+________________________________
+-------
+-------
+-------
+-0--XX-
+0X--0X-
+0X--00X
+Configuration Number: 125
+Time For Solve : 10208 ms
+Number Of Turn Until Some Win: 9
+________________________________
+-------
+-------
+-------
+-0----0
+0X-X--X
+0XXX0-0
+Configuration Number: 126
+Time For Solve : 8016 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0XXX--
+0X0X0--
+0X00X--
+Configuration Number: 127
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-----X0
+00--X0X
+00--XXX
+Configuration Number: 128
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0X-0--
+0X0-X--
+0X0XX--
+Configuration Number: 129
+Time For Solve : 6559 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0----0
+0XX---X
+0X0X0-X
+Configuration Number: 130
+Time For Solve : 1959 ms
+Number Of Turn Until Some Win: -6
+________________________________
+-------
+-------
+-------
+-0-X---
+0XXX-0-
+0XX0-0-
+Configuration Number: 131
+Time For Solve : 1959 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+-0--0-X
+0XX-X-0
+0X0XX-0
+Configuration Number: 132
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0--X--
+0X--X0-
+0X0X0X-
+Configuration Number: 133
+Time For Solve : 2718 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+------X
+00-XX-0
+00XX0-X
+Configuration Number: 134
+Time For Solve : 2863 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+------X
+00--X-X
+00X-X-0
+Configuration Number: 135
+Time For Solve : 4398 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0-0X--
+0X-X0X-
+0X0XX0-
+Configuration Number: 136
+Time For Solve : 905 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+-0---X0
+0XX--X0
+0XX-00X
+Configuration Number: 137
+Time For Solve : 3859 ms
+Number Of Turn Until Some Win: -6
+________________________________
+-------
+-------
+-------
+-0----X
+0X-0X0X
+0X-0XX0
+Configuration Number: 138
+Time For Solve : 1778 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+-0--XX-
+0X--00X
+0X-0XX0
+Configuration Number: 139
+Time For Solve : 10073 ms
+Number Of Turn Until Some Win: 9
+________________________________
+-------
+-------
+-------
+-0-----
+0X-X---
+0X-0X--
+Configuration Number: 140
+Time For Solve : 3651 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0X-X-0
+0X0-X0X
+0XX-0X0
+Configuration Number: 141
+Time For Solve : 4217 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0X-X0-
+0X0X0X-
+0XXX00-
+Configuration Number: 142
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+--X----
+000--XX
+00X-0XX
+Configuration Number: 143
+Time For Solve : 743 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+-0--X--
+0X-X0--
+0X00X-X
+Configuration Number: 144
+Time For Solve : 2931 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0--0X-
+0X--X0X
+0X-XX00
+Configuration Number: 145
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+---X-X-
+00-XX0-
+00-0XX-
+Configuration Number: 146
+Time For Solve : 623 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+-0X-X-0
+0X0-X0X
+0XX-00X
+Configuration Number: 147
+Time For Solve : 2645 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+-0-----
+0XX0-X-
+0X0X0X-
+Configuration Number: 148
+Time For Solve : 1005 ms
+Number Of Turn Until Some Win: -6
+________________________________
+-------
+-------
+-------
+-00-X--
+0X0-X-X
+0XX00-X
+Configuration Number: 149
+Time For Solve : 215 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+-------
+0X0X-0X
+000X-XX
+Configuration Number: 150
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0---X-
+0X0XX0-
+0XXX00-
+Configuration Number: 151
+Time For Solve : 2627 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+----XX0
+00--0XX
+00X-X0X
+Configuration Number: 152
+Time For Solve : 3092 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0-0X--
+0X0XX--
+0XXX00-
+Configuration Number: 153
+Time For Solve : 678 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+-0-X0--
+0X-XX--
+0X-0X-0
+Configuration Number: 154
+Time For Solve : 3364 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+-0---X-
+0X---0X
+0X-00XX
+Configuration Number: 155
+Time For Solve : 10594 ms
+Number Of Turn Until Some Win: 9
+________________________________
+-------
+-------
+-------
+-0-00-X
+0X-XX-0
+0X-0X-X
+Configuration Number: 156
+Time For Solve : 2270 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+-0-X---
+0XX0X--
+0XX00--
+Configuration Number: 157
+Time For Solve : 1180 ms
+Number Of Turn Until Some Win: -6
+________________________________
+-------
+-------
+-------
+-0-----
+0X--X-X
+0XX-0-0
+Configuration Number: 158
+Time For Solve : 14520 ms
+Number Of Turn Until Some Win: -10
+________________________________
+-------
+-------
+-------
+---X-0-
+00-0XXX
+00-XXX0
+Configuration Number: 159
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0---0-
+0X---X-
+0X--XX0
+Configuration Number: 160
+Time For Solve : 3773 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+--0----
+00X--XX
+000X-XX
+Configuration Number: 161
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0----X
+0X0-0XX
+0XX-0X0
+Configuration Number: 162
+Time For Solve : 4896 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+----0--
+00X-XX-
+000-XXX
+Configuration Number: 163
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+---0-0-
+00XX-X-
+00XX-X-
+Configuration Number: 164
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0-X---
+0X0X---
+0XX0X0-
+Configuration Number: 165
+Time For Solve : 8180 ms
+Number Of Turn Until Some Win: 9
+________________________________
+-------
+-------
+-------
+-0---X0
+0X-0-XX
+0X-XX00
+Configuration Number: 166
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0-X---
+0X-X0X-
+0X-00X-
+Configuration Number: 167
+Time For Solve : 1397 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+----X--
+00-X0--
+00-XX-X
+Configuration Number: 168
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0X---0
+0XX---X
+0X0-X-0
+Configuration Number: 169
+Time For Solve : 2411 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+-0-X---
+0XX0-0-
+0XXX-0-
+Configuration Number: 170
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0-----
+0X----0
+0X-X--X
+Configuration Number: 171
+Time For Solve : 3809 ms
+Number Of Turn Until Some Win: 3
+________________________________
+-------
+-------
+-------
+-0X-0--
+0XX-X--
+0X0-0X-
+Configuration Number: 172
+Time For Solve : 3791 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+-0---0-
+0X--XX-
+0X-0XX0
+Configuration Number: 173
+Time For Solve : 3861 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+---X---
+00X0--X
+00X0-XX
+Configuration Number: 174
+Time For Solve : 9051 ms
+Number Of Turn Until Some Win: 9
+________________________________
+-------
+-------
+-------
+-00-X--
+0XX-0-X
+0X0-X0X
+Configuration Number: 175
+Time For Solve : 11136 ms
+Number Of Turn Until Some Win: 9
+________________________________
+-------
+-------
+-------
+-000X--
+0X0XX--
+0XXX0--
+Configuration Number: 176
+Time For Solve : 1286 ms
+Number Of Turn Until Some Win: -8
+________________________________
+-------
+-------
+-------
+-----X-
+00X--X-
+00X-X0-
+Configuration Number: 177
+Time For Solve : 933 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+-0XX---
+0X00-X-
+0X00-XX
+Configuration Number: 178
+Time For Solve : 3226 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0--0XX
+0XX-00X
+0X0-XX0
+Configuration Number: 179
+Time For Solve : 2081 ms
+Number Of Turn Until Some Win: -6
+________________________________
+-------
+-------
+-------
+-0---0X
+0X---X0
+0X-X-0X
+Configuration Number: 180
+Time For Solve : 9726 ms
+Number Of Turn Until Some Win: -10
+________________________________
+-------
+-------
+-------
+-0-0X--
+0X-XX0-
+0X-X0X0
+Configuration Number: 181
+Time For Solve : 16695 ms
+Number Of Turn Until Some Win: -10
+________________________________
+-------
+-------
+-------
+--0X--0
+0XX0--X
+00X0-XX
+Configuration Number: 182
+Time For Solve : 12564 ms
+Number Of Turn Until Some Win: -10
+________________________________
+-------
+-------
+-------
+-0X---0
+0X0X--X
+0XXX0-0
+Configuration Number: 183
+Time For Solve : 2747 ms
+Number Of Turn Until Some Win: -6
+________________________________
+-------
+-------
+-------
+-0--X--
+0X--X-X
+0X--0-0
+Configuration Number: 184
+Time For Solve : 7953 ms
+Number Of Turn Until Some Win: 9
+________________________________
+-------
+-------
+-------
+-0-0X--
+0X-XX-0
+0X-X00X
+Configuration Number: 185
+Time For Solve : 3797 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0X--00
+0X0--XX
+0XX--X0
+Configuration Number: 186
+Time For Solve : 22724 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+-000-X-
+0XXX-0-
+0XXX-0-
+Configuration Number: 187
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0-X-0-
+0X-XX0-
+0X-0XX0
+Configuration Number: 188
+Time For Solve : 2485 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+-0-----
+0X---X-
+0XX-X00
+Configuration Number: 189
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0-X0--
+0X-0X--
+0X0XX--
+Configuration Number: 190
+Time For Solve : 3178 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0-----
+0XX0---
+0XX0-X-
+Configuration Number: 191
+Time For Solve : 2898 ms
+Number Of Turn Until Some Win: -8
+________________________________
+-------
+-------
+-------
+-0-XX-X
+0X-00-X
+0X-0X-0
+Configuration Number: 192
+Time For Solve : 3592 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-00-X--
+0X0-X-X
+0XXX0-0
+Configuration Number: 193
+Time For Solve : 115 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+-------
+0X0-X--
+000XX-X
+Configuration Number: 194
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0----X
+0X--X-0
+0XX-X00
+Configuration Number: 195
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0--0--
+0XX-X--
+0X0-X0X
+Configuration Number: 196
+Time For Solve : 61799 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+--X----
+00XX---
+000XX--
+Configuration Number: 197
+Time For Solve : 2454 ms
+Number Of Turn Until Some Win: 3
+________________________________
+-------
+-------
+-------
+-0X---0
+0X0--XX
+0XXX-00
+Configuration Number: 198
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-00---X
+0XX--0X
+0X0-XX0
+Configuration Number: 199
+Time For Solve : 3771 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0-0X-X
+0X-0X0X
+0X-X0X0
+Configuration Number: 200
+Time For Solve : 3492 ms
+Number Of Turn Until Some Win: 3
+________________________________
+-------
+-------
+-------
+-0X---X
+0X0X--0
+0XX0-X0
+Configuration Number: 201
+Time For Solve : 7659 ms
+Number Of Turn Until Some Win: 9
+________________________________
+-------
+-------
+-------
+-00--X-
+0X0--XX
+0XX-X00
+Configuration Number: 202
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0-0X0-
+0X-XX0-
+0X-X0X-
+Configuration Number: 203
+Time For Solve : 1955 ms
+Number Of Turn Until Some Win: 3
+________________________________
+-------
+-------
+-------
+-0----X
+0X0-0XX
+0XX-X00
+Configuration Number: 204
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+--X---0
+00XX-X0
+000X-XX
+Configuration Number: 205
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-00--XX
+0XX--X0
+0X0--0X
+Configuration Number: 206
+Time For Solve : 3097 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-----0-
+00-X-XX
+000X-XX
+Configuration Number: 207
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0---X-
+0XX0-0-
+0XX0-X-
+Configuration Number: 208
+Time For Solve : 3187 ms
+Number Of Turn Until Some Win: -8
+________________________________
+-------
+-------
+-------
+-0X--XX
+0X0--X0
+0XX--00
+Configuration Number: 209
+Time For Solve : 2330 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+-0XX0--
+0X00X--
+0XXX0--
+Configuration Number: 210
+Time For Solve : 2713 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0-XX--
+0XX00--
+0X0X0-X
+Configuration Number: 211
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0XX0--
+0X0X0X-
+0X00XX-
+Configuration Number: 212
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+--00---
+00XX-X-
+00XX-X-
+Configuration Number: 213
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0-0---
+0X-X-X-
+0X0X-X0
+Configuration Number: 214
+Time For Solve : 1856 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+-----0-
+00--XX-
+00X-XX-
+Configuration Number: 215
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+--X-0--
+00X-X--
+000XXX-
+Configuration Number: 216
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0--XX0
+0X0-0XX
+0XX-X00
+Configuration Number: 217
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0--X--
+0X0X0-X
+0XX0X-0
+Configuration Number: 218
+Time For Solve : 2327 ms
+Number Of Turn Until Some Win: -8
+________________________________
+-------
+-------
+-------
+-0--0--
+0X-X0X-
+0X-0XX-
+Configuration Number: 219
+Time For Solve : 28924 ms
+Number Of Turn Until Some Win: -10
+________________________________
+-------
+-------
+-------
+-0-X--0
+0XXX--0
+0X00-XX
+Configuration Number: 220
+Time For Solve : 3254 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+-0-0-X-
+0X-X-X0
+0X-XX00
+Configuration Number: 221
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0-X---
+0X-X---
+0XX0--0
+Configuration Number: 222
+Time For Solve : 1054 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+-0---0-
+0XX-0X-
+0X0-XX-
+Configuration Number: 223
+Time For Solve : 24285 ms
+Number Of Turn Until Some Win: -10
+________________________________
+-------
+-------
+-------
+-----X-
+00---XX
+00--X0X
+Configuration Number: 224
+Time For Solve : 563 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+-00----
+0XX----
+0X0X--X
+Configuration Number: 225
+Time For Solve : 2016 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+-----X-
+0X0-X0-
+000-XXX
+Configuration Number: 226
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0X-0-X
+0XXX0-0
+0X00X-X
+Configuration Number: 227
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+--0X--X
+00X0--X
+00XX-X0
+Configuration Number: 228
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0-0X-X
+0X-X00X
+0X-X0X0
+Configuration Number: 229
+Time For Solve : 1683 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+--0----
+00X---X
+00X-X-X
+Configuration Number: 230
+Time For Solve : 720 ms
+Number Of Turn Until Some Win: 3
+________________________________
+-------
+-------
+-------
+-0X----
+0X0--X-
+0XX0-X0
+Configuration Number: 231
+Time For Solve : 9737 ms
+Number Of Turn Until Some Win: -10
+________________________________
+-------
+-------
+-------
+----0X-
+00XXX0-
+00XX0X-
+Configuration Number: 232
+Time For Solve : 1040 ms
+Number Of Turn Until Some Win: -6
+________________________________
+-------
+-------
+-------
+-00--0X
+0XX--X0
+0XX--0X
+Configuration Number: 233
+Time For Solve : 9558 ms
+Number Of Turn Until Some Win: 9
+________________________________
+-------
+-------
+-------
+----X-X
+00--0-X
+00XXX-0
+Configuration Number: 234
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-00---X
+0X0--XX
+0XX-0X0
+Configuration Number: 235
+Time For Solve : 2278 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0----X
+0X---00
+0X---XX
+Configuration Number: 236
+Time For Solve : 10692 ms
+Number Of Turn Until Some Win: -10
+________________________________
+-------
+-------
+-------
+-0X-X0-
+0X0-XX0
+0XX-00X
+Configuration Number: 237
+Time For Solve : 3414 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+---X---
+00-X-X0
+00-0XXX
+Configuration Number: 238
+Time For Solve : 574 ms
+Number Of Turn Until Some Win: -6
+________________________________
+-------
+-------
+-------
+-0--X-X
+0X-X0-0
+0X-0XX0
+Configuration Number: 239
+Time For Solve : 4071 ms
+Number Of Turn Until Some Win: 7
+________________________________
+-------
+-------
+-------
+-0X-X--
+0X0-X-0
+0XXX0-0
+Configuration Number: 240
+Time For Solve : 3185 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+----X0-
+00-X0X-
+00-XXX-
+Configuration Number: 241
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+----X-0
+00-XX-X
+00-X0-X
+Configuration Number: 242
+Time For Solve : 4620 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+----XX0
+00--X0X
+00-X0XX
+Configuration Number: 243
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0-0-X-
+0X-X0X-
+0X-X00X
+Configuration Number: 244
+Time For Solve : 1141 ms
+Number Of Turn Until Some Win: 5
+________________________________
+-------
+-------
+-------
+-------
+00X-XX0
+00X-XX0
+Configuration Number: 245
+Time For Solve : 0 ms
+Number Of Turn Until Some Win: 1
+________________________________
+-------
+-------
+-------
+-0--XX-
+0X-X00-
+0X0XX0-
+Configuration Number: 246
+Time For Solve : 1337 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+-0----X
+0X---X0
+0X-X0X0
+Configuration Number: 247
+Time For Solve : 2246 ms
+Number Of Turn Until Some Win: -4
+________________________________
+-------
+-------
+-------
+-0-X---
+0X-0X--
+0X-0XX0
+Configuration Number: 248
+Time For Solve : 2517 ms
+Number Of Turn Until Some Win: -6
+________________________________
+-------
+-------
+-------
+-000--X
+0XXX--0
+0XX0--X
+Configuration Number: 249
+Time For Solve : 7935 ms
+Number Of Turn Until Some Win: -10
+________________________________
+-------
+-------
+-------
+-0X----
+0XX0X--
+0X00X--
+Configuration Number: 250
+Time For Solve : 1947 ms
+Number Of Turn Until Some Win: 5
+________________________________

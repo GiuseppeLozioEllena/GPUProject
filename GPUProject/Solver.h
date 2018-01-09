@@ -9,11 +9,8 @@ public:
 	Solver();
 	~Solver();
 
-	int MinMax(Configuration board, int depth, int alpha, int beta);
-	unsigned long long getNodeCount();
-	void ResetNodeCount();
-
-private:
-	unsigned long long nodeCount;
+	int Pvs(Configuration board, int depth, int alpha, int beta);
+	//check for a winning condition in the first move of the start configuration
+	int FirstSevenMove(Configuration configuration);
 };
 

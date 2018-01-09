@@ -5,43 +5,53 @@
 #include "Configuration.h"
 #include "Solver.h"
 #include <ctime>
+#include <chrono>
 
 using namespace std;
 
 int main(int argc, char** argv) {
 
+	clock_t total_start;
 	string line;
-	clock_t start;
-	double duration;
-	ifstream testFile("configurations.txt");
-	ofstream writeInFile;
-	writeInFile.open("benchmarker.txt");
 
+	ifstream testFile("configurations.txt");
+	ofstream writeInFileB;
+	ofstream writeInFileT;
+	writeInFileB.open("benchmarkerCpu.txt");
+	writeInFileT.open("benchmarkerTimeCpu.txt");
+	int solution = 0;
 	Solver solver=Solver();
 
 	if (testFile.is_open()) {
 		int i = 0;
-		while (getline(testFile, line)) {
-			start = clock();
+		total_start = clock();
+		while (getline(testFile, line)) {	
 			Configuration c = Configuration(line);
-			writeInFile << c;
-			int solution = solver.MinMax(c, 10, numeric_limits<int>::min(), numeric_limits<int>::max());
-			duration = (clock() - start) / (double)CLOCKS_PER_SEC;
-			writeInFile << "Configuration Number: " << i << endl;
-			writeInFile << "Duration: " << duration << endl;
-			writeInFile << "Number Of Turn Until Some Win: " << solution << endl;
-			writeInFile << "Number Of Nodes Calculated: " << solver.getNodeCount() << endl;
-			writeInFile << "________________________________" << endl;
-			solver.ResetNodeCount();
+			writeInFileB << c;
+			auto s = chrono::steady_clock::now();
+			solution = solver.FirstSevenMove(c);		
+			if (solution == 0) {		
+			solution = solver.Pvs(c, 10, numeric_limits<int>::min(), numeric_limits<int>::max());
+			if (!(solution % 2 == 0))
+				solution = -solution;
+			}
+			auto e = chrono::steady_clock::now();
+			auto elapsed = chrono::duration_cast<std::chrono::milliseconds>(e - s);
+			writeInFileT <<i<<" "<< elapsed.count()<<" ms"<< endl;
+			writeInFileB << "Configuration Number: " << i << endl;
+			writeInFileB << "Time For Solve: " << elapsed.count()<<" ms"<< endl;
+			writeInFileB << "Number Of Turn Until Some Win: " << solution << endl;
+			writeInFileB << "________________________________" << endl;
 			i++;
 			if (i >250)
 				break;
 			c.deleteBoard();
 		}
 		testFile.close();
-		writeInFile.close();
+		writeInFileB.close();
+		writeInFileT.close();
 	}
-
+	cout << ((clock() - total_start) / (double)CLOCKS_PER_SEC) << endl;
 	system("pause");
 	return 0;
 }
